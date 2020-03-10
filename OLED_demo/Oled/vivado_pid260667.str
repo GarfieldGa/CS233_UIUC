@@ -1,0 +1,1468 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+Process ID: 260667
+
+Current time: 	12/4/19 3:07:16 PM CST
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.7.1908 (Core)
+Version: 3.10.0-1062.4.3.el7.x86_64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/software/xilinx-2015/Vivado/2015.4/tps/lnx64/jre
+
+User name: 	hantaoz3
+User home directory: /home/hantaoz3
+User working directory: /home/hantaoz3/cs233git/OLED_demo/Oled
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /home/hantaoz3/.Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: /home/hantaoz3/.Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	192 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,827 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 30 MB (+28816kb) [00:00:05]
+// [Engine Memory]: 4,827 MB (+4910152kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,832 MB. GUI used memory: 20 MB. Current time: 12/4/19 3:07:18 PM CST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr");
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr. Version: Vivado v2015.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 MB (+16947kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 50 MB (+367kb) [00:00:22]
+// Project name: Oled; location: /home/hantaoz3/cs233git/OLED_demo/Oled; part: xc7a35tcpg236-1
+// 'i' command handler elapsed time: 7 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 5865.367 ; gain = 108.793 ; free physical = 11732 ; free virtual = 17648 
+// [GUI Memory]: 56 MB (+3420kb) [00:00:22]
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,941 MB. GUI used memory: 29 MB. Current time: 12/4/19 3:07:34 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), clk1 - clk_wiz (clk_wiz.xci)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), clk1 - clk_wiz (clk_wiz.xci)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// T:bF (cq:JFrame):  Re-customize IP : addNotify
+// t:g (cq:JFrame): Re-customize IP: addNotify
+// [GUI Memory]: 62 MB (+3277kb) [00:00:45]
+dismissDialog("Re-customize IP"); // T:bF (cq:JFrame)
+dismissDialog("Re-customize IP"); // t:g (cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), Example - OledEX (OledEX.v)]", 3, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), Example - OledEX (OledEX.v)]", 3, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// [GUI Memory]: 67 MB (+1573kb) [00:01:08]
+// Elapsed time: 38 seconds
+minimizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 132, 288); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 127, 279); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // s:aO
+selectCodeEditor("PmodOLEDCtrl.v", 149, 211); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 155, 201); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 88, 213); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("PmodOLEDCtrl.v", 169, 68); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 62 seconds
+selectCodeEditor("PmodOLEDCtrl.v", 119, 214); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 120, 191); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 127, 199); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("PmodOLEDCtrl.v", 361, 318); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 156, 276); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 257, 322); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 284, 376); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodOLEDCtrl.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("OledEX.v", 61, 289); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 121, 331); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 125, 326); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("OledEX.v", 317, 351); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 486, 272); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 544, 294); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 546, 298); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 551, 321); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 59 seconds
+selectCodeEditor("OledEX.v", 404, 203); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 402, 189); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 400, 178); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 405, 155); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 410, 146); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 411, 174); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 412, 185); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 486, 209); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 678, 329); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 460, 398); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 415, 422); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("OledEX.v", 93, 393); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 443, 435); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 107, 387); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 313, 406); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 475, 420); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 605, 424); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 437, 407); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 437, 396); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 151, 400); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 423, 399); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 434, 410); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 656, 441); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 648, 432); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 45 seconds
+selectCodeEditor("OledEX.v", 372, 573); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 428, 560); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 431, 545); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 479, 523); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 508, 502); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 469, 483); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 491, 453); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 477, 432); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 70 MB (+128kb) [00:07:08]
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 210, 170); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 293, 174); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 209, 212); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 109, 216); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 414, 243); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 379, 235); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 458, 255); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 348, 275); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 495, 267); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 427, 265); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 513, 317); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("OledEX.v", 370, 411); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 530, 405); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 327, 410); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 20 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("OledEX.v", 439, 422); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 353, 396); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 231, 396); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,962 MB. GUI used memory: 38 MB. Current time: 12/4/19 3:16:09 PM CST
+selectCodeEditor("OledEX.v", 337, 459); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 388, 348); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 374, 352); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("OledEX.v", 1100, 300); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 143, 264); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 197, 320); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 297, 339); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 262, 334); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 283, 407); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1054, 430); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 281, 438); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1053, 454); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1039, 484); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 520, 447); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 325, 412); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1110, 464); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 141, 479); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 464, 558); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 476, 592); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 462, 596); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 880, 568); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("OledEX.v", 814, 544); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 207, 410); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 75 MB (+1238kb) [00:11:13]
+// Elapsed time: 17 seconds
+selectCodeEditor("OledEX.v", 1112, 412); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1104, 414); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 66, 428); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 222, 432); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1086, 431); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 217, 442); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 79 MB (+807kb) [00:12:38]
+// Elapsed time: 60 seconds
+selectCodeEditor("OledEX.v", 213, 653); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 238, 670); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1134, 669); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1137, 723); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1064, 436); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("OledEX.v", 358, 679); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 84 MB (+942kb) [00:13:49]
+// Elapsed time: 257 seconds
+selectCodeEditor("OledEX.v", 443, 628); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 423, 641); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 67, 640); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("OledEX.v", 301, 633); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 212 seconds
+selectCodeEditor("OledEX.v", 337, 634); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 89 MB (+157kb) [00:22:31]
+// Elapsed time: 176 seconds
+selectCodeEditor("OledEX.v", 83, 514); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "OledEX.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 88, 259); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodOLEDCtrl.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("OledEX.v", 370, 407); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 338, 409); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("OledEX.v", 405, 410); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 441, 410); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 57 seconds
+selectCodeEditor("OledEX.v", 573, 413); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("OledEX.v", 502, 430); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 278, 420); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 532, 433); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 533, 428); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 433, 441); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 536, 722); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 507, 411); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 92 seconds
+selectCodeEditor("OledEX.v", 537, 710); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 168 seconds
+selectCodeEditor("OledEX.v", 626, 656); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 594, 663); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("OledEX.v", 70, 560); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 327, 556); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 48, 162); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 165, 169); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 595, 164); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 16, 164); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 723, 604); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("OledEX.v", 272, 152); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 128, 176); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 25, 151); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 240, 200); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 21, 159); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1145, 567); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 24, 420); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 676, 616); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 127, 144); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1100, 142); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 294, 95); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 122, 96); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("OledEX.v", 24, 110); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 274, 93); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 284, 106); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 193, 117); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 93 MB (+148kb) [00:35:34]
+// Elapsed time: 52 seconds
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 273, 469); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("OledEX.v", 344, 388); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 298, 402); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 389, 414); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 541, 433); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 129, 424); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("OledEX.v", 269, 440); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 274, 455); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 252, 452); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 277, 455); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 24 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 67 seconds
+selectCodeEditor("OledEX.v", 225, 384); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("OledEX.v", 348, 351); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 162, 335); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 452, 375); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 342, 351); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,976 MB. GUI used memory: 38 MB. Current time: 12/4/19 3:46:09 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "OledEX.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("PmodOLEDCtrl.v", 203, 452); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 166, 461); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 360, 514); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 330, 512); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 463, 512); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 280, 522); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 292, 522); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 315, 521); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 329, 514); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 209, 396); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 82, 488); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 157, 512); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 293, 547); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodOLEDCtrl.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("OledEX.v", 647, 433); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 665, 452, false, false, true, false, false); // bl:J (JPanel:JComponent, cq:JFrame) - Alt Key
+selectCodeEditor("OledEX.v", 355, 514); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 541, 400); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 531, 448); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 79 seconds
+selectCodeEditor("OledEX.v", 316, 474); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 333 seconds
+selectCodeEditor("OledEX.v", 18, 190); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 331, 564); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 323, 561); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 348, 336); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 423, 382); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 23, 245); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 443, 224); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 528, 231); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "OledEX.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 314, 244); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 203, 430); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 282, 427); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 79, 277); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 177, 148); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 607, 323); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 501, 165); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 161, 159); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 478, 258); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 444, 115); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 467, 299); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 295, 223); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 296, 304); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 285, 134); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 313, 214); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 253, 167); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 318, 352); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 321, 381); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 317, 390); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 315, 400); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 312, 410); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 305, 451); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 312, 475); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 576, 479); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 138, 107); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 309, 554); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 314, 558); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor("OledEX.v", 316, 202); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 544, 347); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("OledEX.v", 315, 215); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 314, 231); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 162, 148); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 162, 155); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 698, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 610, 504); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("OledEX.v", 316, 238); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 316, 254); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 73 seconds
+selectCodeEditor("OledEX.v", 318, 259); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("OledEX.v", 313, 280); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 314, 259); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 315, 294); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("OledEX.v", 314, 308); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 130 seconds
+selectCodeEditor("OledEX.v", 314, 404); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 267 seconds
+selectCodeEditor("OledEX.v", 22, 148); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 57, 174); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 346, 401); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 142, 401); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 377, 414); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 128, 379); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 156, 485); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 434, 503); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 747, 482); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 316, 429); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 171, 424); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 310, 422); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("OledEX.v", 284, 336); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 279, 336); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 284, 336); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 315, 336); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 50, 341); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 206, 337); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("OledEX.v", 280, 201); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1116, 254); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 659, 307); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 680, 238); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 821, 224); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1079, 213); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("OledEX.v", 78, 331); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("OledEX.v", 119, 287); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 71, 233); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 76, 233); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 65 seconds
+selectCodeEditor("OledEX.v", 438, 588); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 193, 323); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 304, 604); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("OledEX.v", 572, 521); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("OledEX.v", 268, 139); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 77, 150); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 486, 238); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "OledEX.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 102, 243); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 223, 383); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 236, 415); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 226, 366); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 211, 326); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("PmodOLEDCtrl.v", 392, 335); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodOLEDCtrl.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("OledEX.v", 200, 386); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 494, 496); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 381, 462); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 119, 265); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 572, 506); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("OledEX.v", 125, 427); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 541, 592); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("OledEX.v", 153, 298); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 586, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 589, 318); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 296, 360); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 366, 320); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 163, 570); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 745, 563); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 608, 528); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("OledEX.v", 694, 413); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 785, 638); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 144, 465); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 753, 470); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("OledEX.v", 85, 365); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 179, 526); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 228, 455); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 271, 469); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 298, 470); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 159, 446); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 143, 466); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 392, 497); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 1049, 320); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("OledEX.v", 1148, 429); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1126, 528); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 474, 625); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 468, 633); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 160, 248); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 192, 264); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 617, 535); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 529, 611); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 529, 629); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 523, 638); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 125 seconds
+selectCodeEditor("OledEX.v", 587, 423); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1095, 267); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1109, 329); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1103, 299); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1102, 283); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1103, 307); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1102, 282); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,978 MB. GUI used memory: 37 MB. Current time: 12/4/19 4:16:09 PM CST
+// Elapsed time: 147 seconds
+selectCodeEditor("OledEX.v", 245, 373); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 399, 373); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 557, 366); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("OledEX.v", 37, 592); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 392, 620); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 354, 587); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 86, 161); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 586, 441); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 382, 415); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 294, 316); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 298, 304); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 338, 100); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 281 seconds
+selectCodeEditor("OledEX.v", 16, 377); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 15, 482); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 23, 351); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1139, 295); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 552, 557); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 86, 574); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("OledEX.v", 87, 635); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 755, 643); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 688, 617); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 476, 645); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 542, 611); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("OledEX.v", 406, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 444, 318); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 339, 341); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 265, 131); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 343, 484); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 183, 131); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 307, 443); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 225, 84); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 285, 182); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 36, 177); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 444, 252); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 292, 170); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 310, 174); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 291, 170); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("OledEX.v", 664, 283); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 100, 172); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 249, 302); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 241, 257); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 547, 543); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 71, 87); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 673, 292); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 25, 441); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 59, 486); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 238, 439); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 469, 301); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 460, 305); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("OledEX.v", 496, 591); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 573, 622); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 483, 593); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("OledEX.v", 241, 275); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 439, 428); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 57, 389); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 635, 170); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 559, 528); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("OledEX.v", 113, 208); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 122, 338); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 122, 338, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("OledEX.v", 275, 334); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 381, 334); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("OledEX.v", 276, 538); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 738, 452); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 326, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 154, 365); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 399, 415); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("OledEX.v", 110, 262); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 110, 262, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+// Elapsed time: 45 seconds
+selectCodeEditor("OledEX.v", 134, 301); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 351, 312); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 225, 309); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 350, 320); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 162, 304); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("OledEX.v", 331, 325); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 371, 329); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("OledEX.v", 433, 596); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 433, 596, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 305, 362); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 346, 469); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 64 seconds
+selectCodeEditor("OledEX.v", 139, 365); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 281, 399); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 172, 380); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 382, 414); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("OledEX.v", 138, 366); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 586, 421); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("OledEX.v", 46, 293); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 50, 296); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 47, 289); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("OledEX.v", 262, 517); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 262, 517, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("OledEX.v", 125, 520); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 261, 517); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 261, 517, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+// Elapsed time: 180 seconds
+selectCodeEditor("OledEX.v", 342, 184); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1054, 193); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1059, 204); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("OledEX.v", 776, 319); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 276, 200); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 736, 300); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 590, 475); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 359, 478); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 641, 394); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("OledEX.v", 412, 390); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("OledEX.v", 237, 139); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 103 seconds
+selectCodeEditor("OledEX.v", 306, 214); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 314, 216); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 300, 214); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("OledEX.v", 258, 366); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("OledEX.v", 387, 599); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 421, 597); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 569, 606); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 512, 563); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("OledEX.v", 257, 567); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 275, 560); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 50, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 255, 328); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 276, 565); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 412, 555, false, false, true, false, false); // bl:J (JPanel:JComponent, cq:JFrame) - Alt Key
+// Elapsed time: 13 seconds
+selectCodeEditor("OledEX.v", 594, 620); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("OledEX.v", 594, 473); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 518, 473); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 658, 462); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 193, 509); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 379, 493); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 192, 517); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("OledEX.v", 545, 558); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "OledEX.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodOLEDCtrl.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "OledEX.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 5, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 4,988 MB. GUI used memory: 37 MB. Current time: 12/4/19 4:43:24 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodOLEDCtrl.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("OledEX.v", 1082, 342); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 587, 575); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("OledEX.v", 93, 289); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 108, 292); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 102, 291); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 99, 294); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 185, 367); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 50, 394); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 47, 377); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 724, 465); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "OledEX.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "OledEX.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,003 MB. GUI used memory: 37 MB. Current time: 12/4/19 4:44:34 PM CST
+selectCodeEditor("Basys3_Master.xdc", 6, 168); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 533, 642); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 507, 651); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 334, 130); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 305, 169); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Basys3_Master.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 857, 679); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 16:46:20 2019] Launched synth_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/synth_1/runme.log [Wed Dec  4 16:46:20 2019] Launched impl_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 587, 506); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 559, 174); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 569, 144); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_FAILED
+// X:G (cq:JFrame): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // X:G (cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-1002] digilent_1 is not a constant [/home/hantaoz3/cs233git/OLED_demo/Oled/src/OledEX.v:129]. ]", 2, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-1002] digilent_1 is not a constant [/home/hantaoz3/cs233git/OLED_demo/Oled/src/OledEX.v:129]. ]", 2, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodOLEDCtrl.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-1717] cannot access memory digilent_1 directly [/home/hantaoz3/cs233git/OLED_demo/Oled/src/OledEX.v:129]. ]", 3, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+selectCodeEditor("OledEX.v", 45, 244); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("OledEX.v", 525, 431); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_Cancel", "Cancel"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 16:47:30 2019] Launched synth_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/synth_1/runme.log [Wed Dec  4 16:47:30 2019] Launched impl_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 207 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, X:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // X:G (cq:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Wed Dec  4 16:51:03 2019] Launched impl_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/runme.log 
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, true); // h:JCheckBox (JPanel:JComponent, cq:JFrame): TRUE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module \\Example/CHAR_LIB_COMP  has unconnected pin wea[0]. ]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module \\Example/CHAR_LIB_COMP  has unconnected pin wea[0]. ]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 18 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, X:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // X:G (cq:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.4   **** Build date : Nov 18 2015-09:53:32     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737400A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aS:ag (cq:JFrame): Program Device: addNotify
+// [Engine Memory]: 5,070 MB (+1929kb) [01:44:31]
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aS:ag)
+// bF:g (cq:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aS:ag (cq:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,080 MB. GUI used memory: 42 MB. Current time: 12/4/19 4:51:44 PM CST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bF:g (cq:JFrame)
+// Elapsed time: 377 seconds
+selectCodeEditor("OledEX.v", 86, 258); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 339, 276); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 401, 291); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 413, 295); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 245 seconds
+selectCodeEditor("OledEX.v", 542, 281); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 103 seconds
+selectCodeEditor("OledEX.v", 552, 423, false, false, true, false, false); // bl:J (JPanel:JComponent, cq:JFrame) - Alt Key
+selectCodeEditor("OledEX.v", 534, 411); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 525, 455); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 541, 411); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 193 seconds
+selectCodeEditor("OledEX.v", 408, 396); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 382, 404); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 143, 398); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 423, 402); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 137, 394); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 491, 388); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 476, 406); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 466, 399); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 87 seconds
+selectCodeEditor("OledEX.v", 372, 455); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 492, 372); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 491, 384); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 491, 394); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 489, 382); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 488, 389); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 490, 401); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 437, 386); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 483, 394); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 481, 385); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 495, 392); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("OledEX.v", 434, 316); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("OledEX.v", 382, 320); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("OledEX.v", 278, 353); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 180 seconds
+selectCodeEditor("OledEX.v", 290, 461); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 392, 264); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 827, 201); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 842, 209); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 845, 226); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 848, 219); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 208, 373); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 604, 446); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("OledEX.v", 184, 429); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("OledEX.v", 891, 438); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 149, 459); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 501, 291); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 153, 501); // bl:J (JPanel:JComponent, cq:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+// Elapsed time: 54 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "Digilentscreen"); // o:ao (ai:f, cq:JFrame)
+selectCodeEditor("OledEX.v", 388, 232); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 90 seconds
+selectCodeEditor("OledEX.v", 407, 375); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 401, 375); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("OledEX.v", 505, 539); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 466, 507); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("OledEX.v", 392, 455); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 158 seconds
+selectCodeEditor("OledEX.v", 375, 430); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 357, 424); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 399, 437); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 182, 444); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 99 MB (+1135kb) [02:14:29]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,080 MB. GUI used memory: 40 MB. Current time: 12/4/19 5:21:44 PM CST
+// Elapsed time: 59 seconds
+selectCodeEditor("OledEX.v", 161, 501); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 84, 186); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 93 seconds
+selectCodeEditor("OledEX.v", 541, 402); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 86, 184); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 513, 490); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 331, 485, false, false, true, false, false); // bl:J (JPanel:JComponent, cq:JFrame) - Alt Key
+selectCodeEditor("OledEX.v", 371, 246); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 138 seconds
+selectCodeEditor("OledEX.v", 373, 253); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 357, 247); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 147, 339); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 535, 424); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 378, 338); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 477, 370); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 615, 382); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 451, 383); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 467, 372); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 444, 384); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("OledEX.v", 444, 573); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 362, 594); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 1075, 592); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 762, 520); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 1114, 422); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 864, 441); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 102 seconds
+selectCodeEditor("OledEX.v", 1109, 373); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 623, 572); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 81 seconds
+selectCodeEditor("OledEX.v", 783, 484); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 774, 492); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 483, 535); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 650, 488); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 793, 635); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 767, 537); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 767, 537, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // o:ao (ai:f, cq:JFrame)
+selectCodeEditor("OledEX.v", 512, 472); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 543, 370); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 635, 401); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 566, 381); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 432, 385); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 414, 370); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 430, 390); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 485, 374); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 478, 381); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 438, 378); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 428, 364); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 439, 434); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 437, 446); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 441, 456); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 437, 434); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 439, 447); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 447, 459); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 542, 475); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 535, 449); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 518, 461); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 507, 448); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 470, 451); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 456, 441); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 563, 471); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 356, 480); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 331, 497); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 341, 489); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 592, 478); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 461, 462); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 423, 447); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("OledEX.v", 430, 459); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 554, 478); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("OledEX.v", 589, 474); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 443, 451); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 444, 445); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 320, 506); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 322, 493); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 328, 481); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 363, 495); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 369, 490); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 361, 497); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 397, 535); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 388, 545); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 440, 420); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 436, 410); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 438, 420); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 424, 414); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 426, 427); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 425, 417); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 429, 424); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 423, 416); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 425, 425); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 436, 412); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 445, 428); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 436, 419); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("OledEX.v", 368, 412); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 449, 426); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 437, 417); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 442, 429); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 434, 404); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 445, 413); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 440, 427); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 432, 412); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 396, 405); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 400, 399); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 419, 419); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 441, 433); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 453, 445); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 452, 427); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 436, 418); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 418, 412); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 423, 403); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("OledEX.v", 189, 588); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 81, 416); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 850, 326); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 361, 368); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 395, 375); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 327, 391); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 383, 349); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 362, 328); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 347, 345); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 382, 342); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 382, 349); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 387, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 459, 324); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 597, 317); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 595, 310); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("OledEX.v", 1102, 427); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 784, 338); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 937, 485); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 431, 485); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 675, 546); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 338, 472); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("OledEX.v", 478, 498); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 482, 475); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 462, 456); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 575, 430); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 573, 442); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("OledEX.v", 412, 507); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 454, 519); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("OledEX.v", 408, 483); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// aR:y (cq:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:y)
+// bF:g (cq:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aR:y (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 17:37:48 2019] Launched impl_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 44 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, X:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'bX' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Wed Dec  4 17:38:37 2019] Launched synth_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/synth_1/runme.log [Wed Dec  4 17:38:37 2019] Launched impl_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/runme.log 
+// bF:g (cq:JFrame):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // bF:g (cq:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aS:ag (cq:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aS:ag)
+// HOptionPane Error: "The file '/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit'<br>does not exist.<br>Please specify a valid file name. (Invalid File Name)"
+// 'y' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // aS:ag (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 191 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 5,273 MB. GUI used memory: 42 MB. Current time: 12/4/19 5:42:04 PM CST
+// [Engine Memory]: 5,334 MB (+10235kb) [02:34:59]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 5,723 MB (+128395kb) [02:35:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,725 MB. GUI used memory: 40 MB. Current time: 12/4/19 5:42:11 PM CST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /software/xilinx-2015/Vivado/2015.4/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.5s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.4 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/home/hantaoz3/cs233git/OLED_demo/Oled/.Xil/Vivado-260667-siebl-0224-19.ews.illinois.edu/dcp/PmodOLEDCtrl_early.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc:56] INFO: [Timing 38-2] Deriving generated clocks [/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc:56] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 6721.785 ; gain = 456.445 ; free physical = 9679 ; free virtual = 15894 
+// Tcl Message: Finished Parsing XDC File [/home/hantaoz3/cs233git/OLED_demo/Oled/.Xil/Vivado-260667-siebl-0224-19.ews.illinois.edu/dcp/PmodOLEDCtrl_early.xdc] Parsing XDC File [/home/hantaoz3/cs233git/OLED_demo/Oled/.Xil/Vivado-260667-siebl-0224-19.ews.illinois.edu/dcp/PmodOLEDCtrl.xdc] Finished Parsing XDC File [/home/hantaoz3/cs233git/OLED_demo/Oled/.Xil/Vivado-260667-siebl-0224-19.ews.illinois.edu/dcp/PmodOLEDCtrl.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.16 . Memory (MB): peak = 6726.785 ; gain = 5.000 ; free physical = 9675 ; free virtual = 15889 
+// Tcl Message: Restored from archive | CPU: 0.170000 secs | Memory: 4.410912 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.16 . Memory (MB): peak = 6726.785 ; gain = 5.000 ; free physical = 9675 ; free virtual = 15889 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dt' command handler elapsed time: 12 seconds
+// Device view-level: 0.0
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Elapsed time: 13 seconds
+dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
+// [GUI Memory]: 110 MB (+6288kb) [02:35:12]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 36, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 37, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// HMemoryUtils.trashcanNow. Engine heap size: 5,858 MB. GUI used memory: 75 MB. Current time: 12/4/19 5:42:25 PM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 37, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aS:ag (cq:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aS:ag)
+// bF:g (cq:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aS:ag (cq:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'y' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bF:g (cq:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183737400A 
+// m:a (cq:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 25 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cq:JFrame)
+// Elapsed time: 29 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737400A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183737400A 
+// m:a (cq:JFrame): Close Hardware Target: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cq:JFrame)
+selectCodeEditor("OledEX.v", 381, 439); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 430, 466); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 391, 454); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 412, 472); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 418, 460); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 421, 478); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 417, 466); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 413, 459); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 405, 445); // bl:J (JPanel:JComponent, cq:JFrame)

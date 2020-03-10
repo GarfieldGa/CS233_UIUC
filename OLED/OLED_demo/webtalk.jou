@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Dec  9 15:47:20 2019
+# Process ID: 788905
+# Current directory: /home/hantaoz3/cs233git/OLED/OLED_demo
+# Command line: wbtcv -mode batch -source /home/hantaoz3/cs233git/OLED/OLED_demo/OLED_demo.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: /home/hantaoz3/cs233git/OLED/OLED_demo/webtalk.log
+# Journal file: /home/hantaoz3/cs233git/OLED/OLED_demo/webtalk.jou
+#-----------------------------------------------------------
+source /home/hantaoz3/cs233git/OLED/OLED_demo/OLED_demo.hw/webtalk/labtool_webtalk.tcl -notrace

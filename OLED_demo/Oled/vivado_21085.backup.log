@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Dec  4 22:01:25 2019
+# Process ID: 21085
+# Current directory: /home/hantaoz3/cs233git/OLED_demo/Oled
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/OLED_demo/Oled/vivado.log
+# Journal file: /home/hantaoz3/cs233git/OLED_demo/Oled/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 5892.156 ; gain = 111.297 ; free physical = 415 ; free virtual = 11994
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  4 22:08:22 2019...

@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Nov 19 17:46:16 2019
+# Process ID: 1534696
+# Current directory: /home/hantaoz3/cs233git/OLED
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/OLED/vivado.log
+# Journal file: /home/hantaoz3/cs233git/OLED/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project PmodOLED /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLED
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+import_xise /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLED.xise
+CRITICAL WARNING: [Project 1-21] Could not resolve ISE project part 'xc6slx16-3-csg324'. Part replaced with default 'xc7k70tfbv676-1'.
+
+INFO: [Project 1-267] Adding IP 'charLib' to the project...
+CRITICAL WARNING: [IP_Flow 19-1673] Failed to find file 'c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe' while importing IP 'charLib'. This is a mandatory source file and must exist for import to be successful. Please ensure this file exists.
+WARNING: [IP_Flow 19-2162] IP 'charLib' is locked:
+* IP definition 'Block Memory Generator (6.3)' for IP 'charLib' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc6slx16csg324-3' used to customize the IP 'charLib' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [Project 1-53] IP 'charLib' imported successfully
+CRITICAL WARNING: [Project 1-467] UCF constraints are not supported in Vivado (PmodOLED.ucf). Please convert these constraints to XDC and add then add the converted XDC constraints file to the project.
+INFO: [Project 1-195] The current run uses Vivado Strategies; hence no ISE run options will be mapped to this run during the import operation.
+                           Please see the summary report file for details.
+
+WARNING: [Project 1-99] The behavioral simulation 'top' could not be imported. Please set it manually on the simulation fileset.
+INFO: [Project 1-52] Generating summary report file '/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLED/import_ise_summary.txt'...
+INFO: [Project 1-88] Report file generated.
+
+WARNING: [Project 1-91] Some exceptions were encountered while importing contents of the ISE project file. Please review the "EXCEPTIONS" section in the summary log file /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLED/import_ise_summary.txt at line 44 for details.
+
+INFO: [Coretcl 2-54] ISE import finished.
+report_ip_status -name ip_status 
+update_files -from_files /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/charLib.coe -to_files /home/hantaoz3/cs233git/OLED/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe -filesets [get_filesets *]
+ERROR: [Vivado 12-385] Illegal file or directory name '/home/hantaoz3/cs233git/OLED/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe'
+update_files -from_files /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLED/PmodOLED.srcs/sources_1/ip/charLib/charLib.coe -to_files /home/hantaoz3/cs233git/OLED/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe -filesets [get_filesets *]
+ERROR: [Vivado 12-385] Illegal file or directory name '/home/hantaoz3/cs233git/OLED/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe'
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 19 17:48:12 2019...

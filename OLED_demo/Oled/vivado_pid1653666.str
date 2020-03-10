@@ -1,0 +1,293 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+Process ID: 1653666
+
+Current time: 	11/20/19 5:01:16 PM CST
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.7.1908 (Core)
+Version: 3.10.0-1062.4.1.el7.x86_64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/software/xilinx-2015/Vivado/2015.4/tps/lnx64/jre
+
+User name: 	hantaoz3
+User home directory: /home/hantaoz3
+User working directory: /home/hantaoz3/cs233git/OLED_demo/Oled
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /home/hantaoz3/.Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: /home/hantaoz3/.Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	203 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,825 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 23 MB (+21572kb) [00:00:04]
+// [Engine Memory]: 4,818 MB (+4900985kb) [00:00:04]
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr");
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr. Version: Vivado v2015.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 4,857 MB. GUI used memory: 22 MB. Current time: 11/20/19 5:01:18 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+15178kb) [00:00:08]
+// [GUI Memory]: 48 MB (+7934kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/msm6/Oled' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 54 MB (+3215kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 56 MB (+138kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 61 MB (+2203kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Oled; location: /home/hantaoz3/cs233git/OLED_demo/Oled; part: xc7a35tcpg236-1
+// 'i' command handler elapsed time: 6 seconds
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), Example - OledEX (OledEX.v)]", 3); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), Init - OledInit (OledInit.v)]", 2); // y:k (I:JPanel, cq:JFrame)
+minimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), Example - OledEX (OledEX.v)]", 5, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), Example - OledEX (OledEX.v)]", 5, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// [GUI Memory]: 65 MB (+265kb) [00:00:25]
+// Elapsed time: 24 seconds
+selectCodeEditor("OledEX.v", 528, 226); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 288, 100); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// bF:g (cq:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Wed Nov 20 17:02:12 2019] Launched impl_1... Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bF:g (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 52 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, X:G)
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN, "Open Implemented Design"); // a:JRadioButton (JPanel:JComponent, X:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// [Engine Memory]: 5,066 MB (+7286kb) [00:02:04]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 5,175 MB. GUI used memory: 31 MB. Current time: 11/20/19 5:03:18 PM CST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 5,587 MB (+280076kb) [00:02:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,587 MB. GUI used memory: 31 MB. Current time: 11/20/19 5:03:22 PM CST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Xgd.load filename: /software/xilinx-2015/Vivado/2015.4/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.6s
+// Device: addNotify
+// [GUI Memory]: 68 MB (+50kb) [00:02:12]
+// [GUI Memory]: 73 MB (+1434kb) [00:02:12]
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.4 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/home/hantaoz3/cs233git/OLED_demo/Oled/.Xil/Vivado-1653666-siebl-0224-14.ews.illinois.edu/dcp/PmodOLEDCtrl_early.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc:56] INFO: [Timing 38-2] Deriving generated clocks [/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc:56] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 6570.727 ; gain = 463.449 ; free physical = 4644 ; free virtual = 12141 
+// Tcl Message: Finished Parsing XDC File [/home/hantaoz3/cs233git/OLED_demo/Oled/.Xil/Vivado-1653666-siebl-0224-14.ews.illinois.edu/dcp/PmodOLEDCtrl_early.xdc] Parsing XDC File [/home/hantaoz3/cs233git/OLED_demo/Oled/.Xil/Vivado-1653666-siebl-0224-14.ews.illinois.edu/dcp/PmodOLEDCtrl.xdc] Finished Parsing XDC File [/home/hantaoz3/cs233git/OLED_demo/Oled/.Xil/Vivado-1653666-siebl-0224-14.ews.illinois.edu/dcp/PmodOLEDCtrl.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.10 . Memory (MB): peak = 6573.727 ; gain = 3.000 ; free physical = 4641 ; free virtual = 12138 
+// Tcl Message: Restored from archive | CPU: 0.100000 secs | Memory: 2.738541 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.10 . Memory (MB): peak = 6573.727 ; gain = 3.000 ; free physical = 4641 ; free virtual = 12138 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 6707.414 ; gain = 757.137 ; free physical = 4532 ; free virtual = 12026 
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dt' command handler elapsed time: 11 seconds
+// Device view-level: 0.0
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 78 MB (+1393kb) [00:02:14]
+// Elapsed time: 12 seconds
+dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
+// [GUI Memory]: 85 MB (+3138kb) [00:02:16]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 35, true); // w:Y (v:I, cq:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// [GUI Memory]: 89 MB (+504kb) [00:02:20]
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.4   **** Build date : Nov 18 2015-09:53:32     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737366A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aS:ag (cq:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aS:ag)
+// bF:g (cq:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aS:ag (cq:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,763 MB. GUI used memory: 66 MB. Current time: 11/20/19 5:03:43 PM CST
+// Elapsed time: 152 seconds
+minimizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+// [GUI Memory]: 95 MB (+730kb) [00:06:11]
+// [GUI Memory]: 104 MB (+4527kb) [00:06:11]
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:I, cq:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // w:Y (v:I, cq:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "OledEX.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// [GUI Memory]: 109 MB (+247kb) [00:06:29]
+// Elapsed time: 59 seconds
+selectCodeEditor("OledEX.v", 204, 42); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 172, 79); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 175, 99); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 156, 159); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 153, 189); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("OledEX.v", 116, 80); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("OledEX.v", 124, 137); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 224, 192); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("OledEX.v", 140, 211); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 276, 182); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 287, 195); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 279, 181); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 361, 221); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 269, 188); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 308, 236); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 116 MB (+930kb) [00:10:10]
+// Elapsed time: 800 seconds
+selectCodeEditor("OledEX.v", 274, 155); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 638, 150); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 40 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1); // y:k (I:JPanel, cq:JFrame)
+selectCodeEditor("OledEX.v", 122, 187); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 276, 187); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 239, 136); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 488, 191); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 275, 141); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 278, 141); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 319, 136); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 276, 138); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 310, 171); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 282, 138); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 475, 148); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 513, 189); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 444, 174); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 444, 174, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("OledEX.v", 453, 182); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 458, 176); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 459, 187); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("OledEX.v", 460, 188, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("OledEX.v", 473, 201); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,765 MB. GUI used memory: 66 MB. Current time: 11/20/19 5:33:43 PM CST
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183737366A 
+// m:a (cq:JFrame): Close Hardware Target: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,765 MB. GUI used memory: 66 MB. Current time: 11/20/19 6:03:43 PM CST

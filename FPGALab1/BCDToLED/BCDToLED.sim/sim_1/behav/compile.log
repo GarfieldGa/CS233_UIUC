@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/DecimalDigitDecoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

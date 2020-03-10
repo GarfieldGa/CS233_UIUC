@@ -1,0 +1,21 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DecimalDigitDecoder_tb_behav xil_defaultlib.DecimalDigitDecoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Comparator
+Compiling module xil_defaultlib.CircuitA
+Compiling module xil_defaultlib.DecimalDigitDecoder
+Compiling module xil_defaultlib.DecimalDigitDecoder_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot DecimalDigitDecoder_tb_behav

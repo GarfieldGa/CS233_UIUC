@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Oct 17 18:13:30 2019
+# Process ID: 3561055
+# Current directory: /home/hantaoz3/cs233git/FPGALab3/FPGALab3/FPGALab3.runs/synth_1
+# Command line: vivado -log top_level.vds -mode batch -messageDb vivado.pb -notrace -source top_level.tcl
+# Log file: /home/hantaoz3/cs233git/FPGALab3/FPGALab3/FPGALab3.runs/synth_1/top_level.vds
+# Journal file: /home/hantaoz3/cs233git/FPGALab3/FPGALab3/FPGALab3.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace

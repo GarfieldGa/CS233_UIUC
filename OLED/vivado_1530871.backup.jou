@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Nov 19 17:15:12 2019
+# Process ID: 1530871
+# Current directory: /home/hantaoz3/cs233git/OLED
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/OLED/vivado.log
+# Journal file: /home/hantaoz3/cs233git/OLED/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project OLED_demo /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED_demo
+import_xise /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLED.xise
+add_files -fileset constrs_1 -norecurse /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/Basys3_Master.xdc
+import_files -fileset constrs_1 {/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLED.ucf /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/Basys3_Master.xdc}
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+update_files -from_files /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/charLib.coe -to_files /home/hantaoz3/cs233git/OLED/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe -filesets [get_filesets *]

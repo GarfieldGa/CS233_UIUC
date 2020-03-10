@@ -1,0 +1,81 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Mon Dec  9 15:48:35 2019
+| Host         : siebl-0224-03.ews.illinois.edu running 64-bit CentOS Linux release 7.7.1908 (Core)
+| Command      : report_control_sets -verbose -file PmodOLEDCtrl_control_sets_placed.rpt
+| Design       : PmodOLEDCtrl
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    28 |
+| Minimum Number of register sites lost to control set restrictions |    84 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |           14 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              75 |           19 |
+| Yes          | No                    | No                     |             199 |           76 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             134 |           52 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------------------------------+-------------------------------------------------+------------------+----------------+
+|  Clock Signal  |                  Enable Signal                  |                 Set/Reset Signal                | Slice Load Count | Bel Load Count |
++----------------+-------------------------------------------------+-------------------------------------------------+------------------+----------------+
+|  clk1/inst/CLK | Example/temp_spi_data[5]_i_1_n_0                |                                                 |                1 |              4 |
+|  clk1/inst/CLK | Init/E[0]                                       | RST_IBUF                                        |                1 |              4 |
+|  clk1/inst/CLK | Example/temp_spi_data[5]_i_1_n_0                | Example/temp_spi_data[7]_i_1_n_0                |                1 |              4 |
+|  clk1/inst/CLK |                                                 | Init/SPI_COMP/counter                           |                1 |              5 |
+|  clk1/inst/CLK | Example/DELAY_COMP/current_state[27]_i_1__0_n_0 | RST_IBUF                                        |                2 |              5 |
+|  clk1/inst/CLK |                                                 | Example/SPI_COMP/counter                        |                1 |              5 |
+|  clk1/inst/CLK | Example/SPI_COMP/temp_sdo                       | Example/SPI_COMP/shift_counter[3]_i_1_n_0       |                2 |              5 |
+|  clk1/inst/CLK | Init/SPI_COMP/temp_sdo                          | Init/SPI_COMP/shift_counter[3]_i_1__0_n_0       |                1 |              5 |
+|  clk1/inst/CLK | Init/DELAY_COMP/current_state[27]_i_1__2_n_0    | RST_IBUF                                        |                2 |              5 |
+|  clk1/inst/CLK | Example/temp_index[3]_i_1_n_0                   | Example/temp_char[6]_i_1_n_0                    |                1 |              6 |
+|  clk1/inst/CLK | Init/after_state[94]_i_1_n_0                    | Init/after_state[40]_i_1__0_n_0                 |                4 |              6 |
+|  clk1/inst/CLK | Example/current_screen[0][0][6]_i_2_n_0         | Example/current_screen[0][0][6]_i_1_n_0         |                5 |              6 |
+|  clk1/inst/CLK | Example/temp_index[3]_i_1_n_0                   |                                                 |                2 |              7 |
+|  clk1/inst/CLK | Init/SPI_COMP/shift_register_1                  |                                                 |                3 |              8 |
+|  clk1/inst/CLK | Example/temp_page[1]_i_1_n_0                    |                                                 |                2 |              8 |
+|  clk1/inst/CLK | Example/SPI_COMP/shift_register                 |                                                 |                2 |              8 |
+|  clk1/inst/CLK | Init/temp_spi_data[7]_i_1__0_n_0                |                                                 |                3 |              8 |
+|  clk1/inst/CLK | Example/temp_addr[9]_i_1_n_0                    |                                                 |                3 |             10 |
+|  clk1/inst/CLK | Init/DELAY_COMP/ms_counter                      | Init/DELAY_COMP/current_state[27]_i_2__2_n_0    |                3 |             12 |
+|  clk1/inst/CLK | Example/DELAY_COMP/ms_counter                   | Example/DELAY_COMP/current_state[27]_i_2__0_n_0 |                3 |             12 |
+|  clk1/inst/CLK |                                                 | Example/DELAY_COMP/current_state[27]_i_2__0_n_0 |                4 |             17 |
+|  clk1/inst/CLK |                                                 | Init/DELAY_COMP/current_state[27]_i_2__2_n_0    |                5 |             17 |
+|  clk1/inst/CLK |                                                 |                                                 |               14 |             20 |
+|  clk1/inst/CLK |                                                 | led_out                                         |                8 |             31 |
+|  clk1/inst/CLK | Example/after_state[85]_i_1_n_0                 |                                                 |               14 |             41 |
+|  clk1/inst/CLK | Init/after_state[94]_i_1_n_0                    |                                                 |               23 |             49 |
+|  clk1/inst/CLK | Example/DELAY_COMP/E[0]                         |                                                 |               23 |             56 |
+|  clk1/inst/CLK | Init/DELAY_COMP/E[0]                            | RST_IBUF                                        |               27 |             64 |
++----------------+-------------------------------------------------+-------------------------------------------------+------------------+----------------+
+
+

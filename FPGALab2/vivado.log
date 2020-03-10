@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Oct  9 18:28:45 2019
+# Process ID: 2016359
+# Current directory: /home/hantaoz3/cs233git/FPGALab2
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/FPGALab2/vivado.log
+# Journal file: /home/hantaoz3/cs233git/FPGALab2/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 5868.605 ; gain = 112.676 ; free physical = 2552 ; free virtual = 10954
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  9 18:47:59 2019...

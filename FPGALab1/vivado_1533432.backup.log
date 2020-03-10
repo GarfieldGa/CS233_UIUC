@@ -1,0 +1,977 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Oct  2 16:03:38 2019
+# Process ID: 1533432
+# Current directory: /home/hantaoz3/cs233git/FPGALab1
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/FPGALab1/vivado.log
+# Journal file: /home/hantaoz3/cs233git/FPGALab1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+create_project BCDToLED /home/hantaoz3/cs233git/FPGALab1/BCDToLED -part xc7a35tcpg236-1
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
+set_property simulator_language Verilog [current_project]
+add_files -norecurse /home/hantaoz3/cs233git/FPGALab1/src/FPGALab1.v
+import_files -force -norecurse
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+import_files -fileset constrs_1 -force -norecurse /home/hantaoz3/cs233git/FPGALab1/src/Basys3_Master.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: DecimalDigitDecoder
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:01:05 ; elapsed = 00:35:43 . Memory (MB): peak = 5896.430 ; gain = 4964.055 ; free physical = 5791 ; free virtual = 13029
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DecimalDigitDecoder' [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:29]
+WARNING: [Synth 8-387] label required on module instance [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:30]
+INFO: [Synth 8-638] synthesizing module 'Comparator' [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:18]
+INFO: [Synth 8-256] done synthesizing module 'Comparator' (1#1) [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:18]
+WARNING: [Synth 8-387] label required on module instance [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:31]
+INFO: [Synth 8-638] synthesizing module 'CircuitA' [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:22]
+WARNING: [Synth 8-324] index 3 out of range [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:25]
+WARNING: [Synth 8-324] index 3 out of range [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:26]
+INFO: [Synth 8-256] done synthesizing module 'CircuitA' (2#1) [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:22]
+WARNING: [Synth 8-689] width (4) of port connection 'v' does not match port width (3) of module 'CircuitA' [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:31]
+WARNING: [Synth 8-689] width (1) of port connection 'm' does not match port width (4) of module 'CircuitA' [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:31]
+WARNING: [Synth 8-689] width (4) of port connection 'z' does not match port width (1) of module 'CircuitA' [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:31]
+WARNING: [Synth 8-3848] Net m in module/entity DecimalDigitDecoder does not have driver. [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:29]
+INFO: [Synth 8-256] done synthesizing module 'DecimalDigitDecoder' (3#1) [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:29]
+WARNING: [Synth 8-3331] design DecimalDigitDecoder has unconnected port m[3]
+WARNING: [Synth 8-3331] design DecimalDigitDecoder has unconnected port m[2]
+WARNING: [Synth 8-3331] design DecimalDigitDecoder has unconnected port m[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:06 ; elapsed = 00:35:44 . Memory (MB): peak = 5935.820 ; gain = 5003.445 ; free physical = 5748 ; free virtual = 12988
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line31:z to constant 0 [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:31]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:06 ; elapsed = 00:35:44 . Memory (MB): peak = 5935.820 ; gain = 5003.445 ; free physical = 5748 ; free virtual = 12988
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/constrs_1/imports/src/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/constrs_1/imports/src/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:13 ; elapsed = 00:35:48 . Memory (MB): peak = 6262.340 ; gain = 5329.965 ; free physical = 5425 ; free virtual = 12725
+12 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 6262.340 ; gain = 403.910 ; free physical = 5425 ; free virtual = 12725
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {/home/hantaoz3/cs233git/FPGALab1/src/DecimalDigitDecoder_tb.v /home/hantaoz3/cs233git/FPGALab1/src/BCDToLED_tb.v}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property -name {xsim.simulate.runtime} -value {180ns} -objects [current_fileset -simset]
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BCDToLED_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+xvlog -m64 --relax -prj BCDToLED_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/BCDToLED_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BCDToLED_tb_behav xil_defaultlib.BCDToLED_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCDToLED
+Compiling module xil_defaultlib.BCDToLED_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BCDToLED_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/xsim.dir/BCDToLED_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 16:50:30 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BCDToLED_tb_behav -key {Behavioral:sim_1:Functional:BCDToLED_tb} -tclbatch {BCDToLED_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source BCDToLED_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BCDToLED_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BCDToLED_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+xvlog -m64 --relax -prj BCDToLED_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/BCDToLED_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BCDToLED_tb_behav xil_defaultlib.BCDToLED_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCDToLED
+Compiling module xil_defaultlib.BCDToLED_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BCDToLED_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/xsim.dir/BCDToLED_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 17:00:34 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BCDToLED_tb_behav -key {Behavioral:sim_1:Functional:BCDToLED_tb} -tclbatch {BCDToLED_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source BCDToLED_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BCDToLED_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BCDToLED_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+xvlog -m64 --relax -prj BCDToLED_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/BCDToLED_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BCDToLED_tb_behav xil_defaultlib.BCDToLED_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCDToLED
+Compiling module xil_defaultlib.BCDToLED_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BCDToLED_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/xsim.dir/BCDToLED_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 17:02:05 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BCDToLED_tb_behav -key {Behavioral:sim_1:Functional:BCDToLED_tb} -tclbatch {BCDToLED_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source BCDToLED_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BCDToLED_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BCDToLED_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+xvlog -m64 --relax -prj BCDToLED_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+ERROR: [VRFC 10-1412] syntax error near assign [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:7]
+ERROR: [VRFC 10-51] z0y1x2w3 is an unknown type [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:5]
+ERROR: [VRFC 10-1040] module BCDToLED ignored due to previous errors [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:1]
+INFO: [VRFC 10-311] analyzing module Comparator
+ERROR: [VRFC 10-1040] module Comparator ignored due to previous errors [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:19]
+INFO: [VRFC 10-311] analyzing module CircuitA
+ERROR: [VRFC 10-1040] module CircuitA ignored due to previous errors [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:23]
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+ERROR: [VRFC 10-1040] module DecimalDigitDecoder ignored due to previous errors [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:30]
+INFO: [USF-XSim-99] Step results log file:'/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/xvlog.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BCDToLED_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+xvlog -m64 --relax -prj BCDToLED_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/BCDToLED_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BCDToLED_tb_behav xil_defaultlib.BCDToLED_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCDToLED
+Compiling module xil_defaultlib.BCDToLED_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BCDToLED_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/xsim.dir/BCDToLED_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 17:11:45 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BCDToLED_tb_behav -key {Behavioral:sim_1:Functional:BCDToLED_tb} -tclbatch {BCDToLED_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source BCDToLED_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BCDToLED_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'BCDToLED_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+xvlog -m64 --relax -prj BCDToLED_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/BCDToLED_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BCDToLED_tb_behav xil_defaultlib.BCDToLED_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 1. Module BCDToLED doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCDToLED
+Compiling module xil_defaultlib.BCDToLED_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BCDToLED_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/xsim.dir/BCDToLED_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 17:16:43 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BCDToLED_tb_behav -key {Behavioral:sim_1:Functional:BCDToLED_tb} -tclbatch {BCDToLED_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source BCDToLED_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BCDToLED_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+set_property top DecimalDigitDecoder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'DecimalDigitDecoder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+xvlog -m64 --relax -prj DecimalDigitDecoder_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/DecimalDigitDecoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DecimalDigitDecoder_tb_behav xil_defaultlib.DecimalDigitDecoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1047] module instantiation should have an instance name [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:30]
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <CircuitA> not found while processing module instance <'Undefined'>
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/.nfs0000000005764b72000002eb
+WARNING: [Vivado 12-3661] Failed to remove file:/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/.nfs0000000003e4e211000002ec
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'DecimalDigitDecoder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+xvlog -m64 --relax -prj DecimalDigitDecoder_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/DecimalDigitDecoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DecimalDigitDecoder_tb_behav xil_defaultlib.DecimalDigitDecoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1047] module instantiation should have an instance name [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:30]
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <CircuitA> not found while processing module instance <'Undefined'>
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_1/behav/elaborate.log' file for more information.
+remove_files -fileset sim_1 /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/DecimalDigitDecoder_tb.v
+update_compile_order -fileset sim_1
+set_property top BCDToLED_tb [get_filesets sim_1]
+create_fileset -simset sim_2
+update_compile_order -fileset sim_2
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_2 -norecurse /home/hantaoz3/cs233git/FPGALab1/src/DecimalDigitDecoder_tb.v
+update_compile_order -fileset sim_2
+update_compile_order -fileset sim_2
+update_compile_order -fileset sim_2
+current_fileset -simset [ get_filesets sim_2 ]
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'DecimalDigitDecoder_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+xvlog -m64 --relax -prj DecimalDigitDecoder_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_2/imports/src/DecimalDigitDecoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DecimalDigitDecoder_tb_behav xil_defaultlib.DecimalDigitDecoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1047] module instantiation should have an instance name [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:30]
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <CircuitA> not found while processing module instance <'Undefined'>
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/elaborate.log' file for more information.
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'DecimalDigitDecoder_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+xvlog -m64 --relax -prj DecimalDigitDecoder_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_2/imports/src/DecimalDigitDecoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DecimalDigitDecoder_tb_behav xil_defaultlib.DecimalDigitDecoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 3 for port v [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:31]
+WARNING: [VRFC 10-1783] select index 3 into v is out of bounds [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Comparator
+Compiling module xil_defaultlib.CircuitA
+Compiling module xil_defaultlib.DecimalDigitDecoder
+Compiling module xil_defaultlib.DecimalDigitDecoder_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot DecimalDigitDecoder_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/xsim.dir/DecimalDigitDecoder_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 17:30:08 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "DecimalDigitDecoder_tb_behav -key {Behavioral:sim_2:Functional:DecimalDigitDecoder_tb} -tclbatch {DecimalDigitDecoder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source DecimalDigitDecoder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'DecimalDigitDecoder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'DecimalDigitDecoder_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+xvlog -m64 --relax -prj DecimalDigitDecoder_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_2/imports/src/DecimalDigitDecoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DecimalDigitDecoder_tb_behav xil_defaultlib.DecimalDigitDecoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 3 for port v [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:31]
+WARNING: [VRFC 10-1783] select index 3 into v is out of bounds [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Comparator
+Compiling module xil_defaultlib.CircuitA
+Compiling module xil_defaultlib.DecimalDigitDecoder
+Compiling module xil_defaultlib.DecimalDigitDecoder_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot DecimalDigitDecoder_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/xsim.dir/DecimalDigitDecoder_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 17:32:10 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "DecimalDigitDecoder_tb_behav -key {Behavioral:sim_2:Functional:DecimalDigitDecoder_tb} -tclbatch {DecimalDigitDecoder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source DecimalDigitDecoder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'DecimalDigitDecoder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'DecimalDigitDecoder_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+xvlog -m64 --relax -prj DecimalDigitDecoder_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_2/imports/src/DecimalDigitDecoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DecimalDigitDecoder_tb_behav xil_defaultlib.DecimalDigitDecoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 3 for port v [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:31]
+WARNING: [VRFC 10-1783] select index 3 into v is out of bounds [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:25]
+WARNING: [VRFC 10-1783] select index 3 into v is out of bounds [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Comparator
+Compiling module xil_defaultlib.CircuitA
+Compiling module xil_defaultlib.DecimalDigitDecoder
+Compiling module xil_defaultlib.DecimalDigitDecoder_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot DecimalDigitDecoder_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/xsim.dir/DecimalDigitDecoder_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 17:36:23 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "DecimalDigitDecoder_tb_behav -key {Behavioral:sim_2:Functional:DecimalDigitDecoder_tb} -tclbatch {DecimalDigitDecoder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source DecimalDigitDecoder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'DecimalDigitDecoder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'DecimalDigitDecoder_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+xvlog -m64 --relax -prj DecimalDigitDecoder_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDToLED
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-311] analyzing module CircuitA
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_2/imports/src/DecimalDigitDecoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DecimalDigitDecoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /software/xilinx-2015/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 76685b99b608465983ffcdaf3f75c9de --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DecimalDigitDecoder_tb_behav xil_defaultlib.DecimalDigitDecoder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 29. Module DecimalDigitDecoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 18. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" Line 22. Module CircuitA doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Comparator
+Compiling module xil_defaultlib.CircuitA
+Compiling module xil_defaultlib.DecimalDigitDecoder
+Compiling module xil_defaultlib.DecimalDigitDecoder_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot DecimalDigitDecoder_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav/xsim.dir/DecimalDigitDecoder_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct  2 17:37:42 2019...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.sim/sim_2/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "DecimalDigitDecoder_tb_behav -key {Behavioral:sim_2:Functional:DecimalDigitDecoder_tb} -tclbatch {DecimalDigitDecoder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source DecimalDigitDecoder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 180ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'DecimalDigitDecoder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 180ns
+update_compile_order -fileset sources_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library work [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:1]
+[Wed Oct  2 17:50:47 2019] Launched synth_1...
+Run output will be captured here: /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Oct  2 17:51:19 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library work [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:1]
+[Wed Oct  2 17:55:07 2019] Launched synth_1...
+Run output will be captured here: /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Oct  2 17:55:36 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v" into library work [/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sources_1/imports/src/FPGALab1.v:1]
+[Wed Oct  2 17:56:47 2019] Launched synth_1...
+Run output will be captured here: /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Oct  2 17:57:13 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Oct  2 17:58:03 2019] Launched synth_1...
+Run output will be captured here: /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/synth_1/runme.log
+[Wed Oct  2 17:58:03 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/hantaoz3/cs233git/FPGALab1/.Xil/Vivado-1533432-siebl-0224-17.ews.illinois.edu/dcp/top_level.xdc]
+Finished Parsing XDC File [/home/hantaoz3/cs233git/FPGALab1/.Xil/Vivado-1533432-siebl-0224-17.ews.illinois.edu/dcp/top_level.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 6436.430 ; gain = 1.000 ; free physical = 5124 ; free virtual = 12576
+Restored from archive | CPU: 0.020000 secs | Memory: 0.358604 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00 . Memory (MB): peak = 6436.430 ; gain = 1.000 ; free physical = 5124 ; free virtual = 12576
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 18 2015-09:53:32
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737495A
+set_property PROGRAM.FILE {/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/impl_1/top_level.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/impl_1/top_level.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183737495A
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  2 18:02:10 2019...

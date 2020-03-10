@@ -1,0 +1,3 @@
+For example, if derived class defined some more member variables than base class and we constructed an instance of base class using
+the constructor of derived class. Then the new variables defined in derived class would still be allocated but the base destructor won't
+delete them automatically as it doesn't know the existence of these variables. Thus, we need to virtual destructor to prevent memory leak.

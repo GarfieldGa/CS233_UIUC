@@ -1,0 +1,4 @@
+Language File-Name          IP       Library         File-Path                                                   
+Verilog, clk_wiz_clk_wiz.v, clk_wiz, xil_defaultlib, ../../../../Oled.srcs/sources_1/ip/clk_wiz/clk_wiz_clk_wiz.v
+Verilog, clk_wiz.v,         clk_wiz, xil_defaultlib, ../../../../Oled.srcs/sources_1/ip/clk_wiz/clk_wiz.v        
+Verilog, glbl.v,            *,       xil_defaultlib, glbl.v                                                      

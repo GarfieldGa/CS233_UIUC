@@ -1,0 +1,314 @@
+$date
+	Wed Oct 16 20:52:35 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module timer_test $end
+$var wire 32 ! cycle [31:0] $end
+$var wire 1 " TimerInterrupt $end
+$var wire 1 # TimerAddress $end
+$var reg 1 $ MemRead $end
+$var reg 1 % MemWrite $end
+$var reg 32 & address [31:0] $end
+$var reg 1 ' clock $end
+$var reg 32 ( data [31:0] $end
+$var reg 1 ) reset $end
+$scope module t $end
+$var wire 1 $ MemRead $end
+$var wire 1 % MemWrite $end
+$var wire 1 # TimerAddress $end
+$var wire 1 * acknowledge $end
+$var wire 32 + address [31:0] $end
+$var wire 1 ' clock $end
+$var wire 32 , data [31:0] $end
+$var wire 1 ) reset $end
+$var wire 1 - reset_interrupt_line $end
+$var wire 1 . timeread $end
+$var wire 1 / timewrite $end
+$var wire 1 0 zero $end
+$var wire 32 1 next_count [31:0] $end
+$var wire 1 2 negative $end
+$var wire 32 3 interrupt [31:0] $end
+$var wire 1 4 eq_count $end
+$var wire 1 5 eq_addr2 $end
+$var wire 1 6 eq_addr $end
+$var wire 32 7 cycle [31:0] $end
+$var wire 32 8 count [31:0] $end
+$var wire 1 " TimerInterrupt $end
+$scope module ALU $end
+$var wire 3 9 control [2:0] $end
+$var wire 32 : inB [31:0] $end
+$var wire 32 ; out [31:0] $end
+$var wire 1 0 zero $end
+$var wire 1 2 negative $end
+$var wire 32 < inA [31:0] $end
+$upscope $end
+$scope module cycle_counter $end
+$var wire 1 ' clk $end
+$var wire 32 = d [31:0] $end
+$var wire 1 > enable $end
+$var wire 1 ) reset $end
+$var reg 32 ? q [31:0] $end
+$upscope $end
+$scope module interrupt_cycle $end
+$var wire 1 ' clk $end
+$var wire 32 @ d [31:0] $end
+$var wire 1 / enable $end
+$var wire 1 ) reset $end
+$var reg 32 A q [31:0] $end
+$upscope $end
+$scope module interrupt_line $end
+$var wire 1 ' clk $end
+$var wire 1 B d $end
+$var wire 1 4 enable $end
+$var wire 1 - reset $end
+$var reg 1 " q $end
+$upscope $end
+$scope module tri_cycle $end
+$var wire 1 . control $end
+$var wire 32 C d [31:0] $end
+$var wire 32 D o [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz D
+bx C
+1B
+bx A
+b0 @
+bx ?
+1>
+bx =
+bx <
+bx ;
+b1 :
+b0 9
+bx 8
+bz 7
+06
+05
+x4
+bx 3
+x2
+bx 1
+x0
+0/
+0.
+1-
+b0 ,
+b0 +
+0*
+1)
+b0 (
+0'
+b0 &
+0%
+0$
+0#
+x"
+bz !
+$end
+#5
+02
+00
+b1 1
+b1 ;
+b1 =
+04
+b0 8
+b0 <
+b0 ?
+b0 C
+b11111111111111111111111111111111 3
+b11111111111111111111111111111111 A
+0"
+1'
+#10
+b0 !
+b0 7
+b0 D
+1#
+1.
+0-
+0'
+1$
+16
+b11111111111111110000000000011100 &
+b11111111111111110000000000011100 +
+0)
+#15
+b10 1
+b10 ;
+b10 =
+b1 !
+b1 7
+b1 D
+b1 8
+b1 <
+b1 ?
+b1 C
+1'
+#20
+0'
+#25
+b11 1
+b11 ;
+b11 =
+b10 !
+b10 7
+b10 D
+b10 8
+b10 <
+b10 ?
+b10 C
+1'
+#30
+0'
+#35
+b100 1
+b100 ;
+b100 =
+b11 !
+b11 7
+b11 D
+b11 8
+b11 <
+b11 ?
+b11 C
+1'
+#40
+0'
+#45
+b101 1
+b101 ;
+b101 =
+b100 !
+b100 7
+b100 D
+b100 8
+b100 <
+b100 ?
+b100 C
+1'
+#50
+bz !
+bz 7
+bz D
+1/
+0.
+0'
+1%
+0$
+b110 (
+b110 ,
+b110 @
+#55
+b110 1
+b110 ;
+b110 =
+b110 3
+b110 A
+b101 8
+b101 <
+b101 ?
+b101 C
+1'
+#60
+b101 !
+b101 7
+b101 D
+0/
+1.
+0'
+0%
+1$
+#65
+b111 1
+b111 ;
+b111 =
+b110 !
+b110 7
+b110 D
+14
+b110 8
+b110 <
+b110 ?
+b110 C
+1'
+#70
+0'
+#75
+b1000 1
+b1000 ;
+b1000 =
+b111 !
+b111 7
+b111 D
+1"
+04
+b111 8
+b111 <
+b111 ?
+b111 C
+1'
+#80
+0'
+#85
+b1001 1
+b1001 ;
+b1001 =
+b1000 !
+b1000 7
+b1000 D
+b1000 8
+b1000 <
+b1000 ?
+b1000 C
+1'
+#90
+0'
+#95
+b1010 1
+b1010 ;
+b1010 =
+b1001 !
+b1001 7
+b1001 D
+b1001 8
+b1001 <
+b1001 ?
+b1001 C
+1'
+#100
+bz !
+bz 7
+bz D
+1-
+0.
+1*
+0'
+1%
+0$
+06
+15
+b11111111111111110000000001101100 &
+b11111111111111110000000001101100 +
+#105
+b1011 1
+b1011 ;
+b1011 =
+b1010 8
+b1010 <
+b1010 ?
+b1010 C
+0"
+1'
+#110
+0'

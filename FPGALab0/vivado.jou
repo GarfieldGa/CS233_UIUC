@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Sep 25 16:38:04 2019
+# Process ID: 574382
+# Current directory: /home/hantaoz3/cs233git/FPGALab0
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/FPGALab0/vivado.log
+# Journal file: /home/hantaoz3/cs233git/FPGALab0/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hantaoz3/cs233git/FPGALab0/tutorial/tutorial.xpr
+open_run synth_1 -name synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_design
+open_run impl_1
+startgroup
+set_property is_route_fixed 1 [get_nets {led_OBUF[1] }]
+set_property is_bel_fixed 1 [get_cells {led_OBUF[1]_inst led_OBUF[1]_inst_i_1 }]
+set_property is_loc_fixed 1 [get_cells {led_OBUF[1]_inst led_OBUF[1]_inst_i_1 }]
+endgroup
+startgroup
+set_property is_route_fixed 0 [get_nets {led_OBUF[1] }]
+set_property is_bel_fixed 0 [get_cells {led_OBUF[1]_inst led_OBUF[1]_inst_i_1 }]
+set_property is_loc_fixed 1 [get_cells {led_OBUF[1]_inst led_OBUF[1]_inst_i_1 }]
+endgroup
+close_design
+launch_simulation -mode post-implementation -type timing
+source tutorial_tb.tcl
+close_sim
+close_design
+reset_run impl_1
+launch_runs impl_1
+wait_on_run impl_1
+open_run impl_1
+synth_design -rtl -name rtl_1
+current_design impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/hantaoz3/cs233git/FPGALab0/tutorial/tutorial.runs/impl_1/tutorial.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/hantaoz3/cs233git/FPGALab0/tutorial/tutorial.runs/impl_1/tutorial.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

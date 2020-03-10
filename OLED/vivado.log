@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Nov 19 18:12:30 2019
+# Process ID: 1539089
+# Current directory: /home/hantaoz3/cs233git/OLED
+# Command line: vivado .
+# Log file: /home/hantaoz3/cs233git/OLED/vivado.log
+# Journal file: /home/hantaoz3/cs233git/OLED/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'charLib' is locked:
+* IP definition 'Block Memory Generator (6.3)' for IP 'charLib' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc6slx16csg324-3' used to customize the IP 'charLib' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+remove_files /home/hantaoz3/cs233git/OLED/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe
+update_files -from_files /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledEX.sv -to_files /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledEX.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file '/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledEX.v' with file '/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledEX.sv'.
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Tue Nov 19 18:18:01 2019] Launched synth_1...
+Run output will be captured here: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/runme.log
+[Tue Nov 19 18:18:01 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Tue Nov 19 18:18:46 2019] Launched synth_1...
+Run output will be captured here: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/runme.log
+[Tue Nov 19 18:18:46 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Tue Nov 19 18:31:37 2019] Launched synth_1...
+Run output will be captured here: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/runme.log
+[Tue Nov 19 18:31:37 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 19 18:33:27 2019...

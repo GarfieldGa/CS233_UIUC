@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Sep 25 15:20:47 2019
+# Process ID: 566220
+# Current directory: /home/hantaoz3/cs233git/FPGALab0
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/FPGALab0/vivado.log
+# Journal file: /home/hantaoz3/cs233git/FPGALab0/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project tutorial /home/hantaoz3/cs233git/FPGALab0/tutorial -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
+set_property simulator_language Verilog [current_project]
+add_files -norecurse /home/hantaoz3/cs233git/FPGALab0/src/tutorial.v
+import_files -force -norecurse
+import_files -fileset constrs_1 -force -norecurse /home/hantaoz3/cs233git/FPGALab0/src/Basys3_Master.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse /home/hantaoz3/cs233git/FPGALab0/src/tutorial_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property -name {xsim.simulate.runtime} -value {200ns} -objects [current_fileset -simset]
+launch_simulation
+source tutorial_tb.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -force -norecurse /home/hantaoz3/cs233git/FPGALab0/src/tutorial_tb.v
+close_sim
+launch_runs synth_1
+wait_on_run synth_1
+close_design

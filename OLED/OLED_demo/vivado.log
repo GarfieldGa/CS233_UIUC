@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Dec  9 15:46:14 2019
+# Process ID: 788634
+# Current directory: /home/hantaoz3/cs233git/OLED/OLED_demo
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/OLED/OLED_demo/vivado.log
+# Journal file: /home/hantaoz3/cs233git/OLED/OLED_demo/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hantaoz3/cs233git/OLED/OLED_demo/OLED_demo.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/hantaoz3/cs233git/OLED/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'charLib' is locked:
+* IP definition 'Block Memory Generator (6.3)' for IP 'charLib' has a newer major version in the IP Catalog.
+* Current project part 'xc7a35tcpg236-1' and the part 'xc6slx16csg324-3' used to customize the IP 'charLib' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+close_project
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/hantaoz3/cs233git/OLED/OLED_demo/OLED_demo.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec  9 15:47:20 2019...
+open_project /home/hantaoz3/cs233git/OLED/OLED_demo/OLED_demo.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/hantaoz3/cs233git/OLED/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/hantaoz3/cs233git/OLED/OLED_demo/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'charLib' is locked:
+* IP definition 'Block Memory Generator (6.3)' for IP 'charLib' has a newer major version in the IP Catalog.
+* Current project part 'xc7a35tcpg236-1' and the part 'xc6slx16csg324-3' used to customize the IP 'charLib' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+close_project
+open_project /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+[Mon Dec  9 15:48:10 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Dec  9 15:49:33 2019] Launched impl_1...
+Run output will be captured here: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 18 2015-09:53:32
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737400A
+set_property PROGRAM.FILE {/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.runs/impl_1/PmodOLEDCtrl.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183737400A
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  9 17:51:05 2019...

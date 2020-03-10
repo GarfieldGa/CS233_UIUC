@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Nov 20 14:26:15 2019
+# Process ID: 1637700
+# Current directory: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/vivado.log
+# Journal file: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.xpr
+remove_files /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/c:/Users/jsackos/Desktop/Pmod_Demos/In_Progress/PmodOLED/HDL/Verilog_PmodOLED_Demo_Source/PmodOLED/charLib.coe
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+add_files -norecurse {/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.mif /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.ngc}
+add_files -norecurse {/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.v /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/bmg_tb_top.vhd /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/example_design/bmg_wrapper.vhd /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/bmg_tb_pkg.vhd /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/functional/wave_ncsim.sv /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/timing/wave_ncsim.sv /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/example_design/charLib_top.vhd /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/addr_gen.vhd /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/bmg_tb_synth.vhd /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/random.vhd /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/bmg_stim_gen.vhd /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.veo}
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+remove_files /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/functional/wave_ncsim.sv
+remove_files /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib/simulation/timing/wave_ncsim.sv
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+set_property target_language Verilog [current_project]
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1

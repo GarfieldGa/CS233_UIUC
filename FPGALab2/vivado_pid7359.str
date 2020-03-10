@@ -1,0 +1,381 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+Process ID: 7359
+
+Current time: 	10/7/19 5:44:51 PM CDT
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.7.1908 (Core)
+Version: 3.10.0-957.12.2.el7.x86_64
+Architecture: amd64
+Available processors (cores): 12
+
+DISPLAY: :117
+Screen size: 1536x751
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/software/xilinx-2015/Vivado/2015.4/tps/lnx64/jre
+
+User name: 	hantaoz3
+User home directory: /home/hantaoz3
+User working directory: /home/hantaoz3/cs233git/FPGALab2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /home/hantaoz3/.Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: /home/hantaoz3/.Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,841 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 25 MB (+23847kb) [00:00:05]
+// [Engine Memory]: 4,841 MB (+4925082kb) [00:00:05]
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# Current time: 10/7/19 5:44:51 PM CDT
+# Process ID: 7359
+# Platform: Unix
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: ERROR: [ProjectBase 63-9] XML parser encountered a problem in /home/hantaoz3/cs233git/FPGALab2 at line 1 : Unexpected end of message
+ (See /home/hantaoz3/cs233git/FPGALab2/vivado_pid7359.debug)
+*/
+// HOptionPane Error: "ERROR: [ProjectBase 63-9] XML parser encountered a problem in /home/hantaoz3/cs233git/FPGALab2<br>at line 1 : Unexpected end of message  (Vivado v2015.4 (64-bit))"
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,841 MB. GUI used memory: 21 MB. Current time: 10/7/19 5:44:56 PM CDT
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// [GUI Memory]: 27 MB (+136kb) [00:00:20]
+// Elapsed time: 11 seconds
+setFileChooser("/home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.xpr");
+// Opening Vivado Project: /home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.xpr. Version: Vivado v2015.4 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 33 MB (+5423kb) [00:00:25]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 MB (+13788kb) [00:00:25]
+// [GUI Memory]: 52 MB (+1575kb) [00:00:27]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,958 MB. GUI used memory: 27 MB. Current time: 10/7/19 5:45:17 PM CDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: FPGALab2; location: /home/hantaoz3/cs233git/FPGALab2/FPGALab2; part: xc7a35tcpg236-1
+// 'i' command handler elapsed time: 21 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 5882.078 ; gain = 116.680 ; free physical = 4872 ; free virtual = 12866 
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 56 MB (+1345kb) [00:00:34]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,991 MB. GUI used memory: 27 MB. Current time: 10/7/19 5:52:11 PM CDT
+// [GUI Memory]: 59 MB (+177kb) [00:17:51]
+// Elapsed time: 1356 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Oct 07 17:10:43 CDT 2019 ; 00:00:09 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7a35tcpg236-1 ; siebl-0224-18.ews.illinois.edu ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // W:aw (JViewport:JComponent, cq:JFrame) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.3s
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FPGALab1.v]", 2, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, FPGALab1.v]", 2, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("FPGALab1.v", 59, 108); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 96, 100); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 67, 95); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("FPGALab1.v", 105, 126); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 64 MB (+2373kb) [00:24:19]
+// Elapsed time: 14 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("FPGALab1.v", 223, 208); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 394, 259); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 68 MB (+1239kb) [00:24:40]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_divider (clock_divider.v)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_divider (clock_divider.v)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesis Settings]", 16, false); // w:Y (v:I, cq:JFrame)
+// [GUI Memory]: 73 MB (+933kb) [00:24:54]
+// Run Command: PAResourceCommand.PACommandNames_SYNTH_SETTINGS
+// Project Settings: addNotify
+dismissDialog("Project Settings"); // k:aJ (cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz (clk_wiz.xci)]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz (clk_wiz.xci)]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz (clk_wiz.xci)]", 5, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// T:bF (cq:JFrame):  Re-customize IP : addNotify
+// t:g (cq:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // T:bF (cq:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 3); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 4); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 5); // cH:g (H:JPanel, t:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:g)
+dismissDialog("Re-customize IP"); // t:g (cq:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Mon Oct  7 18:10:16 2019] Launched synth_1... Run output will be captured here: /home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "2 critical warnings"); // i:l (CommandBar:DockableBar, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FPGALab1.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 151, 5); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 191, 13); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 155, 20); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near input. [/home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.srcs/sources_1/imports/src/FPGALab1.v:2]. ]", 2, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.srcs/sources_1/imports/src/FPGALab1.v;-;;-;16;-;line;-;2;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 26 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Mon Oct  7 18:11:14 2019] Launched impl_1... Run output will be captured here: /home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "2 critical warnings"); // i:l (CommandBar:DockableBar, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 5); // ag:k (JViewport:JComponent, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 6); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [/home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.srcs/constrs_1/imports/src/Basys3_Master.xdc:7]. ]", 7, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [/home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.srcs/constrs_1/imports/src/Basys3_Master.xdc:7]. ]", 7, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Vivado 12-1387] No valid object(s) found for create_clock constraint with option '-objects [get_ports clk]'. [/home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.srcs/constrs_1/imports/src/Basys3_Master.xdc:9]. ]", 8, false); // ag:k (JViewport:JComponent, cq:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cq:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 28 seconds
+selectButton(PAResourceItoN.LaunchRunMsgDialog_CANCEL_RUN, "Cancel Run"); // a:JButton (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cq:JFrame)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceItoN.LaunchRunMsgLongTask_CANCEL_RUN_Delete Files", "Delete Files"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 8, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 8, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// [GUI Memory]: 76 MB (+143kb) [00:27:25]
+selectCodeEditor("Basys3_Master.xdc", 193, 97); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 234, 99); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 280, 100); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 273, 96); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 296, 99); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 74, 123); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 92, 115); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 162, 100); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 154, 108); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FPGALab1.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 725, 58); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_divider (clock_divider.v)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_divider (clock_divider.v)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("clock_divider.v", 309, 263); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clock_divider.v", 324, 241); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("clock_divider.v", 203, 249); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // y:k (I:JPanel, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FPGALab1.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 164, 23); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 188, 13); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 157, 40); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 274, 8); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "FPGALab1.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 0, 28); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 119 seconds
+selectCodeEditor("FPGALab1.v", 163, 54); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 151, 40); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 152, 20); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 157, 35); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 259, 8); // bl:J (JPanel:JComponent, cq:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 81 MB (+420kb) [00:31:47]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 16 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [/home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.srcs/constrs_1/imports/src/Basys3_Master.xdc:7]. ]", 2, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.srcs/constrs_1/imports/src/Basys3_Master.xdc;-;;-;16;-;line;-;7;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 296, 92); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FPGALab1.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // s:aO
+// Elapsed time: 97 seconds
+selectCodeEditor("FPGALab1.v", 210, 205); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 300, 204); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 396, 186); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("FPGALab1.v", 388, 235); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 101 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FPGALab1.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_UNSELECT_ALL
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz (clk_wiz.xci)]", 6, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz (clk_wiz.xci)]", 6, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz (clk_wiz.xci)]", 6, false); // y:k (I:JPanel, cq:JFrame)
+// T:bF (cq:JFrame):  Re-customize IP : addNotify
+// t:g (cq:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // T:bF (cq:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cH:g (H:JPanel, t:g)
+// [GUI Memory]: 85 MB (+117kb) [00:36:12]
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 3); // cH:g (H:JPanel, t:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 4); // cH:g (H:JPanel, t:g)
+// Elapsed time: 14 seconds
+dismissDialog("Re-customize IP"); // t:g (cq:JFrame)
+selectCodeEditor("Basys3_Master.xdc", 318, 93); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 21 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clock_divider.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FPGALab1.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clock_divider.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,019 MB. GUI used memory: 46 MB. Current time: 10/7/19 6:22:11 PM CDT
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Mon Oct  7 18:22:15 2019] Launched synth_1... Run output will be captured here: /home/hantaoz3/cs233git/FPGALab2/FPGALab2/FPGALab2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a:JButton (JPanel:JComponent, cq:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_STATUS_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cq:JFrame): FALSE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs]", 1); // ag:k (JViewport:JComponent, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, clk_wiz_synth_1]", 2); // ag:k (JViewport:JComponent, cq:JFrame)
+// TclEventType: RUN_FAILED
+// X:G (cq:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, X:G)
+dismissDialog("Synthesis Failed"); // X:G (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,021 MB. GUI used memory: 45 MB. Current time: 10/7/19 6:52:12 PM CDT
+// [GUI Memory]: 89 MB (+228kb) [01:34:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,021 MB. GUI used memory: 43 MB. Current time: 10/7/19 7:22:12 PM CDT

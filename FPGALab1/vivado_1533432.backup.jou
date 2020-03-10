@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Oct  2 16:03:38 2019
+# Process ID: 1533432
+# Current directory: /home/hantaoz3/cs233git/FPGALab1
+# Command line: vivado
+# Log file: /home/hantaoz3/cs233git/FPGALab1/vivado.log
+# Journal file: /home/hantaoz3/cs233git/FPGALab1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project BCDToLED /home/hantaoz3/cs233git/FPGALab1/BCDToLED -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
+set_property simulator_language Verilog [current_project]
+add_files -norecurse /home/hantaoz3/cs233git/FPGALab1/src/FPGALab1.v
+import_files -force -norecurse
+import_files -fileset constrs_1 -force -norecurse /home/hantaoz3/cs233git/FPGALab1/src/Basys3_Master.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {/home/hantaoz3/cs233git/FPGALab1/src/DecimalDigitDecoder_tb.v /home/hantaoz3/cs233git/FPGALab1/src/BCDToLED_tb.v}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property -name {xsim.simulate.runtime} -value {180ns} -objects [current_fileset -simset]
+launch_simulation
+source BCDToLED_tb.tcl
+close_sim
+launch_simulation
+source BCDToLED_tb.tcl
+close_sim
+launch_simulation
+source BCDToLED_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source BCDToLED_tb.tcl
+close_sim
+launch_simulation
+source BCDToLED_tb.tcl
+set_property top DecimalDigitDecoder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+remove_files -fileset sim_1 /home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.srcs/sim_1/imports/src/DecimalDigitDecoder_tb.v
+update_compile_order -fileset sim_1
+set_property top BCDToLED_tb [get_filesets sim_1]
+create_fileset -simset sim_2
+update_compile_order -fileset sim_2
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_2 -norecurse /home/hantaoz3/cs233git/FPGALab1/src/DecimalDigitDecoder_tb.v
+update_compile_order -fileset sim_2
+update_compile_order -fileset sim_2
+update_compile_order -fileset sim_2
+current_fileset -simset [ get_filesets sim_2 ]
+launch_simulation -simset sim_2
+launch_simulation -simset sim_2
+source DecimalDigitDecoder_tb.tcl
+close_sim
+launch_simulation -simset sim_2
+source DecimalDigitDecoder_tb.tcl
+close_sim
+launch_simulation -simset sim_2
+source DecimalDigitDecoder_tb.tcl
+close_sim
+launch_simulation -simset sim_2
+source DecimalDigitDecoder_tb.tcl
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/impl_1/top_level.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/home/hantaoz3/cs233git/FPGALab1/BCDToLED/BCDToLED.runs/impl_1/top_level.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_sim
+close_sim

@@ -1,0 +1,682 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Nov 20 14:49:17 2019
+# Process ID: 1640651
+# Current directory: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1
+# Command line: vivado -log PmodOLEDCtrl.vds -mode batch -messageDb vivado.pb -notrace -source PmodOLEDCtrl.tcl
+# Log file: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/PmodOLEDCtrl.vds
+# Journal file: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source PmodOLEDCtrl.tcl -notrace
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'.
+CRITICAL WARNING: [filemgmt 20-1440] File '/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.v' already exists in the project as a part of sub-design file '/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.xco'. Explicitly adding the file outside the scope of the sub-design can lead to unintended behaviors and is not recommended.
+CRITICAL WARNING: [filemgmt 20-1440] File '/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.ngc' already exists in the project as a part of sub-design file '/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.xco'. Explicitly adding the file outside the scope of the sub-design can lead to unintended behaviors and is not recommended.
+Command: synth_design -top PmodOLEDCtrl -part xc7k70tfbv676-1
+Starting synth_design
+INFO: [IP_Flow 19-2162] IP 'charLib' is locked:
+* IP definition 'Block Memory Generator (6.3)' for IP 'charLib' has a newer major version in the IP Catalog.
+* Current project part 'xc7k70tfbv676-1' and the part 'xc6slx16csg324-3' used to customize the IP 'charLib' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-1223] The version limit for your license is '2017.02' and will expire in -995 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module charLib [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.v:39]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1089.430 ; gain = 157.043 ; free physical = 5246 ; free virtual = 12574
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'PmodOLEDCtrl' [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLEDCtrl.v:17]
+INFO: [Synth 8-638] synthesizing module 'OledInit' [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledInit.v:17]
+INFO: [Synth 8-638] synthesizing module 'SpiCtrl' [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/SpiCtrl.v:19]
+INFO: [Synth 8-256] done synthesizing module 'SpiCtrl' (1#1) [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/SpiCtrl.v:19]
+INFO: [Synth 8-638] synthesizing module 'Delay' [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/Delay.v:17]
+INFO: [Synth 8-256] done synthesizing module 'Delay' (2#1) [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/Delay.v:17]
+INFO: [Synth 8-256] done synthesizing module 'OledInit' (3#1) [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledInit.v:17]
+INFO: [Synth 8-638] synthesizing module 'OledEX' [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledEX.sv:19]
+	Parameter alphabet_screen bound to: 8'b01000001 
+	Parameter clear_screen bound to: 8'b00100000 
+	Parameter digilent_screen bound to: 8'b01010100 
+INFO: [Synth 8-638] synthesizing module 'charLib' [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.v:39]
+INFO: [Synth 8-256] done synthesizing module 'charLib' (4#1) [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.v:39]
+INFO: [Synth 8-256] done synthesizing module 'OledEX' (5#1) [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledEX.sv:19]
+INFO: [Synth 8-256] done synthesizing module 'PmodOLEDCtrl' (6#1) [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/PmodOLEDCtrl.v:17]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1135.695 ; gain = 203.309 ; free physical = 5199 ; free virtual = 12528
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1135.695 ; gain = 203.309 ; free physical = 5199 ; free virtual = 12528
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/constrs_1/imports/PmodOLED_Source/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/constrs_1/imports/PmodOLED_Source/Basys3_Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/constrs_1/imports/PmodOLED_Source/Basys3_Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/PmodOLEDCtrl_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/constrs_1/imports/PmodOLED_Source/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PmodOLEDCtrl_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/PmodOLEDCtrl_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1435.906 ; gain = 0.000 ; free physical = 4941 ; free virtual = 12270
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1640674 
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1435.914 ; gain = 503.527 ; free physical = 4936 ; free virtual = 12265
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1435.914 ; gain = 503.527 ; free physical = 4936 ; free virtual = 12265
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for Example/CHAR_LIB_COMP. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1435.914 ; gain = 503.527 ; free physical = 4936 ; free virtual = 12265
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'SpiCtrl'
+INFO: [Synth 8-5545] ROM "SPI_FIN" won't be mapped to RAM because address size (40) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "counter" won't be mapped to RAM because address size (40) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "shift_counter" won't be mapped to RAM because address size (40) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_state" won't be mapped to RAM because address size (40) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "ms_counter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "temp_res" won't be mapped to RAM because address size (104) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_vdd" won't be mapped to RAM because address size (104) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "after_state" won't be mapped to RAM because address size (104) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_spi_data" won't be mapped to RAM because address size (104) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_vbat" won't be mapped to RAM because address size (104) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_fin" won't be mapped to RAM because address size (104) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_spi_en" won't be mapped to RAM because address size (104) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_delay_en" won't be mapped to RAM because address size (104) is larger than maximum supported(25)
+INFO: [Synth 8-4471] merging register 'current_screen_reg[3][15][7:0]' into 'current_screen_reg[3][14][7:0]' [/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OledEX.sv:145]
+INFO: [Synth 8-5545] ROM "current_screen" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "after_page_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "temp_delay_ms" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "after_state" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_char" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "after_char_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "temp_dc" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_spi_data" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_addr" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_spi_en" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_delay_en" won't be mapped to RAM because address size (144) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'PmodOLEDCtrl'
+INFO: [Synth 8-5545] ROM "current_state" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 | 0000000001001001011001000110110001100101
+                 iSTATE0 |                              001 | 0000000001010011011001010110111001100100
+                 iSTATE1 |                              010 | 0100100001101111011011000110010000110001
+                 iSTATE2 |                              011 | 0100100001101111011011000110010000110010
+                 iSTATE3 |                              100 | 0100100001101111011011000110010000110011
+                 iSTATE4 |                              101 | 0100100001101111011011000110010000110100
+                 iSTATE5 |                              110 | 0000000001000100011011110110111001100101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'SpiCtrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 | 000000000000000000000000000000000000000000000000000000000000000000000000000000001001001011001000110110001100101
+                 iSTATE0 |                             0010 | 100111101101100011001010110010001001001011011100110100101110100011010010110000101101100011010010111101001100101
+                 iSTATE1 |                             0100 | 000000000000000000000000100111101101100011001010110010001000101011110000110000101101101011100000110110001100101
+                 iSTATE2 |                             1000 | 000000000000000000000000000000000000000000000000000000000000000000000000000000001000100011011110110111001100101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'PmodOLEDCtrl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1459.922 ; gain = 527.535 ; free physical = 4883 ; free virtual = 12213
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |OledEX__GB0       |           1|     60192|
+|2     |OledEX__GB1       |           1|     15840|
+|3     |OledEX__GB2       |           1|     56451|
+|4     |PmodOLEDCtrl__GC0 |           1|     31051|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	              143 Bit    Registers := 1     
+	              112 Bit    Registers := 1     
+	              104 Bit    Registers := 2     
+	               96 Bit    Registers := 1     
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 2     
+	               17 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 68    
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input    143 Bit        Muxes := 1     
+	  14 Input    143 Bit        Muxes := 1     
+	  30 Input    112 Bit        Muxes := 1     
+	  28 Input    104 Bit        Muxes := 1     
+	  11 Input    104 Bit        Muxes := 1     
+	   2 Input    104 Bit        Muxes := 1     
+	   2 Input     95 Bit        Muxes := 2     
+	   3 Input     31 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 2     
+	  30 Input     11 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 16    
+	   2 Input      8 Bit        Muxes := 2     
+	  28 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	  30 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	  28 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 2     
+	  30 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 51    
+	  30 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 3     
+	   7 Input      1 Bit        Muxes := 2     
+	  28 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PmodOLEDCtrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module Delay__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     31 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module SpiCtrl__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+	   7 Input      1 Bit        Muxes := 1     
+Module OledEX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	              143 Bit    Registers := 1     
+	              112 Bit    Registers := 1     
+	               96 Bit    Registers := 1     
+	               40 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 65    
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input    143 Bit        Muxes := 1     
+	  14 Input    143 Bit        Muxes := 1     
+	  30 Input    112 Bit        Muxes := 1     
+	   2 Input     95 Bit        Muxes := 2     
+	  30 Input     11 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 16    
+	  30 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	  30 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	  30 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module SpiCtrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+	   7 Input      1 Bit        Muxes := 1     
+Module Delay 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     31 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module OledInit 
+Detailed RTL Component Info : 
++---Registers : 
+	              104 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	  28 Input    104 Bit        Muxes := 1     
+	  11 Input    104 Bit        Muxes := 1     
+	   2 Input    104 Bit        Muxes := 1     
+	  28 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	  28 Input      4 Bit        Muxes := 1     
+	  28 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:47 ; elapsed = 00:00:53 . Memory (MB): peak = 1459.922 ; gain = 527.535 ; free physical = 4883 ; free virtual = 12213
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "clk_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "ms_counter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "current_state" won't be mapped to RAM because address size (28) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "after_char_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "temp_addr" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "after_state" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_screen" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_char" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_spi_data" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_spi_en" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_dc" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_delay_ms" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_delay_en" won't be mapped to RAM because address size (111) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "ms_counter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "current_state" won't be mapped to RAM because address size (28) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "after_state" won't be mapped to RAM because address size (103) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_fin" won't be mapped to RAM because address size (103) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_res" won't be mapped to RAM because address size (103) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_vbat" won't be mapped to RAM because address size (103) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_vdd" won't be mapped to RAM because address size (103) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_spi_en" won't be mapped to RAM because address size (103) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_spi_data" won't be mapped to RAM because address size (103) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp_delay_en" won't be mapped to RAM because address size (103) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:01:30 ; elapsed = 00:01:38 . Memory (MB): peak = 1459.922 ; gain = 527.535 ; free physical = 4890 ; free virtual = 12220
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:01:30 ; elapsed = 00:01:38 . Memory (MB): peak = 1459.922 ; gain = 527.535 ; free physical = 4890 ; free virtual = 12220
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |OledEX__GB0       |           1|         0|
+|2     |OledEX__GB1       |           1|         0|
+|3     |OledEX__GB2       |           1|     42009|
+|4     |PmodOLEDCtrl__GC0 |           1|     29136|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][15][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][15][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][15][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][14][0] ' (FDE) to 'Examplei_2/\current_screen_reg[3][14][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][14][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][14][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][14][0] ' (FDE) to 'Examplei_2/\current_screen_reg[2][14][2] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][14][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][14][1] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][13][0] ' (FDE) to 'Examplei_2/\current_screen_reg[3][13][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][13][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][13][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][13][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][12][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][12][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][12][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][12][0] ' (FDE) to 'Examplei_2/\current_screen_reg[2][12][1] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][12][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][12][2] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][11][0] ' (FDE) to 'Examplei_2/\current_screen_reg[3][11][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][11][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][11][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][11][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][10][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][10][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][10][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][10][0] ' (FDE) to 'Examplei_2/\current_screen_reg[2][10][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][10][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][10][1] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][9][0] ' (FDE) to 'Examplei_2/\current_screen_reg[3][9][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][9][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][9][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][9][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][8][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][8][0] ' (FDE) to 'Examplei_2/\current_screen_reg[2][8][1] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][8][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][8][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][7][0] ' (FDE) to 'Examplei_2/\current_screen_reg[3][7][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][7][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][7][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][7][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][6][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][6][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][6][0] ' (FDE) to 'Examplei_2/\current_screen_reg[2][6][2] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][6][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][1] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][5][0] ' (FDE) to 'Examplei_2/\current_screen_reg[3][5][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][5][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][5][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][5][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][4][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][4][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][4][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][4][0] ' (FDE) to 'Examplei_2/\current_screen_reg[2][4][1] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][4][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][4][2] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][3][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][3][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][3][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][3][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][2][0] ' (FDE) to 'Examplei_2/\current_screen_reg[3][2][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][2][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][2][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][2][0] ' (FDE) to 'Examplei_2/\current_screen_reg[2][2][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][2][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][2][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][1][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][1][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][1][0] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][1][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][0][0] ' (FDE) to 'Examplei_2/\current_screen_reg[3][0][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][0][0] ' (FDE) to 'Examplei_2/\current_screen_reg[1][0][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][0][0] ' (FDE) to 'Examplei_2/\current_screen_reg[2][0][1] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][15][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][2] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][15][1] ' (FDE) to 'Examplei_2/\current_screen_reg[2][15][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][15][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][14][1] ' (FDE) to 'Examplei_2/\current_screen_reg[3][14][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][14][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][14][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][14][1] ' (FDE) to 'Examplei_2/\current_screen_reg[0][14][2] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][13][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][13][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][13][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][13][1] ' (FDE) to 'Examplei_2/\current_screen_reg[0][13][2] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][12][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][12][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][12][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][12][1] ' (FDE) to 'Examplei_2/\current_screen_reg[2][12][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][12][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][11][1] ' (FDE) to 'Examplei_2/\current_screen_reg[3][11][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][11][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][11][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][11][1] ' (FDE) to 'Examplei_2/\current_screen_reg[2][11][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][11][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][10][1] ' (FDE) to 'Examplei_2/\current_screen_reg[3][10][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][10][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][10][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][10][1] ' (FDE) to 'Examplei_2/\current_screen_reg[0][10][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][9][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][9][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][9][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][9][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][9][1] ' (FDE) to 'Examplei_2/\current_screen_reg[0][9][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][8][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][8][1] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][8][1] ' (FDE) to 'Examplei_2/\current_screen_reg[2][8][2] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][8][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][7][1] ' (FDE) to 'Examplei_2/\current_screen_reg[3][7][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][7][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][7][1] ' (FDE) to 'Examplei_2/\current_screen_reg[2][7][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][7][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[3][6][1] ' (FDE) to 'Examplei_2/\current_screen_reg[3][6][4] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[1][6][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][6][6] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[2][6][1] ' (FDE) to 'Examplei_2/\current_screen_reg[1][15][3] '
+INFO: [Synth 8-3886] merging instance 'Examplei_2/\current_screen_reg[0][6][1] ' (FDE) to 'Examplei_2/\current_screen_reg[0][6][6] '
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (Examplei_2/\after_update_state_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\after_update_state_reg[37] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (Examplei_2/\after_char_state_reg[54] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\after_char_state_reg[75] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\temp_delay_ms_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (Examplei_2/\temp_delay_ms_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\after_state_reg[111] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\after_page_state_reg[142] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\DELAY_COMP/current_state_reg[12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (Examplei_2/\DELAY_COMP/current_state_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\current_state_reg[143] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\temp_char_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (Examplei_2/\after_page_state_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (Examplei_2/\after_state_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\after_page_state_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\after_state_reg[73] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\current_state_reg[142] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Examplei_2/\temp_addr_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_3/\Init/after_state_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\Init/after_state_reg[101] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\Init/DELAY_COMP/current_state_reg[12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_3/\Init/DELAY_COMP/current_state_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\Init/temp_dc_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_2/\current_state_reg[111] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_2/\current_state_reg[14] )
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:02:01 ; elapsed = 00:02:09 . Memory (MB): peak = 1493.461 ; gain = 561.074 ; free physical = 4855 ; free virtual = 12186
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:02:01 ; elapsed = 00:02:09 . Memory (MB): peak = 1493.461 ; gain = 561.074 ; free physical = 4855 ; free virtual = 12186
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |OledEX__GB2       |           1|      2557|
+|2     |PmodOLEDCtrl__GC0 |           1|      5136|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:07 ; elapsed = 00:02:15 . Memory (MB): peak = 1496.461 ; gain = 564.074 ; free physical = 4594 ; free virtual = 11939
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:10 ; elapsed = 00:02:18 . Memory (MB): peak = 1534.055 ; gain = 601.668 ; free physical = 4400 ; free virtual = 11748
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |OledEX__GB2       |           1|      2369|
+|2     |PmodOLEDCtrl__GC0 |           1|      5136|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:11 ; elapsed = 00:02:19 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4375 ; free virtual = 11729
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:11 ; elapsed = 00:02:19 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4375 ; free virtual = 11729
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:11 ; elapsed = 00:02:19 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4375 ; free virtual = 11729
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:11 ; elapsed = 00:02:20 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4371 ; free virtual = 11726
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:11 ; elapsed = 00:02:20 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4371 ; free virtual = 11726
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:12 ; elapsed = 00:02:20 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4374 ; free virtual = 11725
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:12 ; elapsed = 00:02:20 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4374 ; free virtual = 11725
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:12 ; elapsed = 00:02:20 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4374 ; free virtual = 11725
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:12 ; elapsed = 00:02:20 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4374 ; free virtual = 11725
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |charLib       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |charLib |     1|
+|2     |BUFG    |     1|
+|3     |CARRY4  |    16|
+|4     |LUT1    |    63|
+|5     |LUT2    |   393|
+|6     |LUT3    |   161|
+|7     |LUT4    |   215|
+|8     |LUT5    |   337|
+|9     |LUT6    |  1161|
+|10    |MUXF7   |    12|
+|11    |FDRE    |   396|
+|12    |FDSE    |    27|
+|13    |IBUF    |     2|
+|14    |OBUF    |     7|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------------+----------+------+
+|      |Instance       |Module    |Cells |
++------+---------------+----------+------+
+|1     |top            |          |  2799|
+|2     |  Example      |OledEX    |  1080|
+|3     |    DELAY_COMP |Delay_0   |   104|
+|4     |    SPI_COMP   |SpiCtrl_1 |    58|
+|5     |  Init         |OledInit  |  1704|
+|6     |    DELAY_COMP |Delay     |   118|
+|7     |    SPI_COMP   |SpiCtrl   |    53|
++------+---------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:12 ; elapsed = 00:02:20 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4374 ; free virtual = 11725
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:07 ; elapsed = 00:02:14 . Memory (MB): peak = 1550.070 ; gain = 225.555 ; free physical = 4374 ; free virtual = 11726
+Synthesis Optimization Complete : Time (s): cpu = 00:02:12 ; elapsed = 00:02:20 . Memory (MB): peak = 1550.070 ; gain = 617.684 ; free physical = 4374 ; free virtual = 11726
+INFO: [Project 1-571] Translating synthesized netlist
+Reading core file '/home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.srcs/sources_1/ip/charLib/charLib.ngc' for (cell view 'charLib', library 'work')
+Parsing EDIF File [./.ngc2edfcache/charLib_ngc_c936ffe7.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/charLib_ngc_c936ffe7.edif]
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20151103
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+212 Infos, 2 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:11 ; elapsed = 00:02:18 . Memory (MB): peak = 1550.078 ; gain = 546.352 ; free physical = 4370 ; free virtual = 11722
+report_utilization: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1582.094 ; gain = 0.000 ; free physical = 4375 ; free virtual = 11725
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 14:51:44 2019...

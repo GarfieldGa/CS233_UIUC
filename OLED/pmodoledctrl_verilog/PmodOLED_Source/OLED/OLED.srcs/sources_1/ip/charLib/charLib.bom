@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+	<IPInstance name="charLib">
+		<FileSets>
+			<FileSet generator="xmdf_to_bom">
+				<File name="blk_mem_gen_ds512.pdf" type="ignore" timestamp="Sat Jan 07 12:52:36 2012" checksum="0">
+				</File>
+				<File name="blk_mem_gen_v6_3_readme.txt" type="txt" timestamp="Sat Jan 07 12:52:36 2012" checksum="0">
+				</File>
+				<File name="charLib/example_design/bmg_wrapper.vhd" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/example_design/charLib_top.ucf" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/example_design/charLib_top.vhd" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/example_design/charLib_top.xdc" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/implement/implement.bat" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/implement/implement.sh" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/implement/planAhead_rdn.bat" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/implement/planAhead_rdn.sh" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/implement/planAhead_rdn.tcl" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/implement/xst.prj" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/implement/xst.scr" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/addr_gen.vhd" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/bmg_tb_synth.vhd" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/bmg_tb_top.vhd" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/functional/isim_tcl_cmds.tcl" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/functional/simulate_mti.do" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/functional/wave_mti.do" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/random.vhd" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/timing/isim_tcl_cmds.tcl" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/timing/simulate_mti.do" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/timing/wave_mti.do" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Thu Jun 14 21:00:08 2012" checksum="0">
+				</File>
+				<File name="charLib.asy" type="asy" timestamp="Thu Jun 14 21:01:10 2012" checksum="0">
+				</File>
+				<File name="charLib.mif" type="ignore" timestamp="Thu Jun 14 21:01:10 2012" checksum="0">
+				</File>
+				<File name="charLib.ngc" type="ngc" timestamp="Thu Jun 14 21:01:00 2012" checksum="0">
+				</File>
+				<File name="charLib.sym" type="asy" timestamp="Thu Jun 14 21:01:10 2012" checksum="0">
+				</File>
+				<File name="charLib.v" type="verilog" timestamp="Thu Jun 14 21:01:06 2012" checksum="0">
+				</File>
+				<File name="charLib.veo" type="veo" timestamp="Thu Jun 14 21:01:04 2012" checksum="0">
+				</File>
+				<File name="charLib.xco" type="xco" timestamp="Thu Jun 14 21:00:06 2012" checksum="0">
+				</File>
+				<File name="charLib_xmdf.tcl" type="ignore" timestamp="Thu Jun 14 21:01:12 2012" checksum="0">
+				</File>
+				<File name="summary.log" type="ignore" timestamp="Thu Jun 14 21:01:10 2012" checksum="0">
+				</File>
+			</FileSet>
+		</FileSets>
+	</IPInstance>
+</BillOfMaterials>
+

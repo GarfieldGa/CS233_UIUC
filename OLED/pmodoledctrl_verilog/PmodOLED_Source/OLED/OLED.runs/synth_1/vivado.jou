@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Nov 20 14:49:17 2019
+# Process ID: 1640651
+# Current directory: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1
+# Command line: vivado -log PmodOLEDCtrl.vds -mode batch -messageDb vivado.pb -notrace -source PmodOLEDCtrl.tcl
+# Log file: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/PmodOLEDCtrl.vds
+# Journal file: /home/hantaoz3/cs233git/OLED/pmodoledctrl_verilog/PmodOLED_Source/OLED/OLED.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source PmodOLEDCtrl.tcl -notrace

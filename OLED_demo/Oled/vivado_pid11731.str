@@ -1,0 +1,100 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+Process ID: 11731
+
+Current time: 	11/30/19 4:02:56 PM CST
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.7.1908 (Core)
+Version: 3.10.0-957.12.2.el7.x86_64
+Architecture: amd64
+Available processors (cores): 12
+
+DISPLAY: :118.0
+Screen size: 1536x751
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/software/xilinx-2015/Vivado/2015.4/tps/lnx64/jre
+
+User name: 	hantaoz3
+User home directory: /home/hantaoz3
+User working directory: /home/hantaoz3/cs233git/OLED_demo/Oled
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /home/hantaoz3/.Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: /home/hantaoz3/.Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	201 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,847 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 26 MB (+24269kb) [00:00:05]
+// [Engine Memory]: 4,847 MB (+4931430kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,852 MB. GUI used memory: 20 MB. Current time: 11/30/19 4:02:58 PM CST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr");
+// Opening Vivado Project: /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr. Version: Vivado v2015.4 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 31 MB (+4124kb) [00:01:25]
+// Tcl Message: open_project /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+14846kb) [00:01:28]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,974 MB. GUI used memory: 30 MB. Current time: 11/30/19 4:04:22 PM CST
+// Tcl Message: open_project /home/hantaoz3/cs233git/OLED_demo/Oled/Oled.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/xilinx-2015/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 53 MB (+4200kb) [00:01:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 56 MB (+36kb) [00:01:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Oled; location: /home/hantaoz3/cs233git/OLED_demo/Oled; part: xc7a35tcpg236-1
+// 'i' command handler elapsed time: 11 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 5897.945 ; gain = 120.203 ; free physical = 3193 ; free virtual = 14681 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 5, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// [GUI Memory]: 59 MB (+1109kb) [00:01:46]
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v)]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), Example - OledEX (OledEX.v)]", 3, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodOLEDCtrl (PmodOLEDCtrl.v), Example - OledEX (OledEX.v)]", 3, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 4,993 MB. GUI used memory: 31 MB. Current time: 11/30/19 4:04:59 PM CST
+// Elapsed time: 18 seconds
+closeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // at:DockableFrame (FrameContainer:JideTabbedPane, cq:JFrame)
+// [GUI Memory]: 62 MB (+62kb) [00:07:01]
+// [GUI Memory]: 66 MB (+98kb) [00:24:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,993 MB. GUI used memory: 33 MB. Current time: 11/30/19 4:34:59 PM CST
+// [GUI Memory]: 70 MB (+585kb) [00:50:31]
+// [GUI Memory]: 73 MB (+148kb) [01:00:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,993 MB. GUI used memory: 29 MB. Current time: 11/30/19 5:04:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,993 MB. GUI used memory: 31 MB. Current time: 11/30/19 5:34:59 PM CST
